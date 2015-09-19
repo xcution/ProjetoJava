@@ -26,18 +26,104 @@ public class frmPrincipal extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        jDesktopPane1 = new javax.swing.JDesktopPane();
+        JIF1 = new javax.swing.JInternalFrame();
+        JIF3 = new javax.swing.JInternalFrame();
+        JIF4 = new javax.swing.JInternalFrame();
+        JIF5 = new javax.swing.JInternalFrame();
+        JIF2 = new javax.swing.JInternalFrame();
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 734, Short.MAX_VALUE)
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Loja De Instrumentos");
+        setMinimumSize(new java.awt.Dimension(1280, 720));
+        setPreferredSize(new java.awt.Dimension(1280, 720));
+        getContentPane().setLayout(null);
+
+        jDesktopPane1.setBackground(new java.awt.Color(255, 255, 255));
+        jDesktopPane1.setPreferredSize(new java.awt.Dimension(1280, 720));
+
+        JIF1.setVisible(true);
+
+        javax.swing.GroupLayout JIF1Layout = new javax.swing.GroupLayout(JIF1.getContentPane());
+        JIF1.getContentPane().setLayout(JIF1Layout);
+        JIF1Layout.setHorizontalGroup(
+            JIF1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 324, Short.MAX_VALUE)
         );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 493, Short.MAX_VALUE)
+        JIF1Layout.setVerticalGroup(
+            JIF1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 121, Short.MAX_VALUE)
         );
+
+        jDesktopPane1.add(JIF1);
+        JIF1.setBounds(10, 10, 340, 150);
+
+        JIF3.setVisible(true);
+
+        javax.swing.GroupLayout JIF3Layout = new javax.swing.GroupLayout(JIF3.getContentPane());
+        JIF3.getContentPane().setLayout(JIF3Layout);
+        JIF3Layout.setHorizontalGroup(
+            JIF3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 324, Short.MAX_VALUE)
+        );
+        JIF3Layout.setVerticalGroup(
+            JIF3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 111, Short.MAX_VALUE)
+        );
+
+        jDesktopPane1.add(JIF3);
+        JIF3.setBounds(10, 170, 340, 140);
+
+        JIF4.setVisible(true);
+
+        javax.swing.GroupLayout JIF4Layout = new javax.swing.GroupLayout(JIF4.getContentPane());
+        JIF4.getContentPane().setLayout(JIF4Layout);
+        JIF4Layout.setHorizontalGroup(
+            JIF4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 324, Short.MAX_VALUE)
+        );
+        JIF4Layout.setVerticalGroup(
+            JIF4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 111, Short.MAX_VALUE)
+        );
+
+        jDesktopPane1.add(JIF4);
+        JIF4.setBounds(370, 170, 340, 140);
+
+        JIF5.setVisible(true);
+
+        javax.swing.GroupLayout JIF5Layout = new javax.swing.GroupLayout(JIF5.getContentPane());
+        JIF5.getContentPane().setLayout(JIF5Layout);
+        JIF5Layout.setHorizontalGroup(
+            JIF5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 684, Short.MAX_VALUE)
+        );
+        JIF5Layout.setVerticalGroup(
+            JIF5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 131, Short.MAX_VALUE)
+        );
+
+        jDesktopPane1.add(JIF5);
+        JIF5.setBounds(10, 320, 700, 160);
+
+        JIF2.setVisible(true);
+
+        javax.swing.GroupLayout JIF2Layout = new javax.swing.GroupLayout(JIF2.getContentPane());
+        JIF2.getContentPane().setLayout(JIF2Layout);
+        JIF2Layout.setHorizontalGroup(
+            JIF2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 329, Short.MAX_VALUE)
+        );
+        JIF2Layout.setVerticalGroup(
+            JIF2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 121, Short.MAX_VALUE)
+        );
+
+        jDesktopPane1.add(JIF2);
+        JIF2.setBounds(370, 10, 345, 150);
+
+        getContentPane().add(jDesktopPane1);
+        jDesktopPane1.setBounds(0, 0, 1280, 720);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -78,5 +164,11 @@ public class frmPrincipal extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JInternalFrame JIF1;
+    private javax.swing.JInternalFrame JIF2;
+    private javax.swing.JInternalFrame JIF3;
+    private javax.swing.JInternalFrame JIF4;
+    private javax.swing.JInternalFrame JIF5;
+    private javax.swing.JDesktopPane jDesktopPane1;
     // End of variables declaration//GEN-END:variables
 }

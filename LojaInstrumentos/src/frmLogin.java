@@ -111,6 +111,26 @@ public class frmLogin extends javax.swing.JFrame {
     }//GEN-LAST:event_btnCancelarActionPerformed
 
     private void btnAcessarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAcessarActionPerformed
+        String usuario = txtUsuario.getText();
+        String senha   = txtSenha.getText();
+        boolean logado = false;
+        
+        Acesso acesso = new Acesso();
+        
+        logado = acesso.entrar(usuario, senha);
+        
+        if(logado == true)
+        {
+            frmPrincipal principal = new frmPrincipal();
+            principal.show();
+            this.dispose();
+        }
+        else
+        {
+            txtUsuario.setText("");
+            txtSenha.setText("");
+            txtUsuario.requestFocus();
+        }
         
     }//GEN-LAST:event_btnAcessarActionPerformed
 

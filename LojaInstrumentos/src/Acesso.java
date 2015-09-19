@@ -1,35 +1,37 @@
-public class Acesso
-{
-    private String usuario;
-    private String senha;
-    
-    public String getUsuario() 
-    {
-        return usuario;
-    }
 
-    public void setUsuario(String usuario) 
+import javax.swing.JOptionPane;
+
+public class Acesso 
+{
+    private String usuario = "";
+    private String senha = "";
+    
+    public boolean entrar(String usuario, String senha)
     {
         this.usuario = usuario;
-    }
-
-    public String getSenha() 
-    {
-        return senha;
-    }
-
-    public void setSenha(String senha) 
-    {
         this.senha = senha;
-    }
-    
-    public void Acessar(String usuario, String senha)
-    {
+        boolean logado = false;
+        
         if(usuario.equals("admin") && senha.equals("admin"))
         {
-            frmPrincipal principal = new frmPrincipal();
-            
-            principal.show();
+            logado = true;
         }
+        else
+        {
+            if(usuario.equals("") && senha.equals(""))
+            {
+                JOptionPane.showMessageDialog(null, "É necessário informar o login e a senha para entrar.");
+                logado = false;
+            }
+            else
+            {
+                if((!usuario.equals("admin")) && (!senha.equals("admin")))
+                {
+                    JOptionPane.showMessageDialog(null, "Login ou senha incorretos.");
+                    logado = false;
+                }
+            }
+        }
+        return logado;
     }
 }
