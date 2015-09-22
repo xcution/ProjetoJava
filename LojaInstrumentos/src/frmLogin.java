@@ -1,3 +1,7 @@
+
+import javax.swing.JFrame;
+import javax.swing.JInternalFrame;
+
 public class frmLogin extends javax.swing.JFrame {
 
     public frmLogin() {
@@ -122,6 +126,7 @@ public class frmLogin extends javax.swing.JFrame {
         if(logado == true)
         {
             frmPrincipal principal = new frmPrincipal();
+            //principal.setExtendedState();
             principal.show();
             this.dispose();
         }

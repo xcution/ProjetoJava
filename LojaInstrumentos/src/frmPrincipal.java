@@ -25,108 +25,141 @@ public class frmPrincipal extends javax.swing.JFrame {
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
+        bindingGroup = new org.jdesktop.beansbinding.BindingGroup();
 
-        jDesktopPane1 = new javax.swing.JDesktopPane();
+        JDP_principal = new javax.swing.JDesktopPane();
         JIF1 = new javax.swing.JInternalFrame();
+        jButton1 = new javax.swing.JButton();
+        jButton10 = new javax.swing.JButton();
         JIF3 = new javax.swing.JInternalFrame();
+        jButton2 = new javax.swing.JButton();
+        jButton9 = new javax.swing.JButton();
         JIF4 = new javax.swing.JInternalFrame();
+        jButton3 = new javax.swing.JButton();
+        jButton8 = new javax.swing.JButton();
         JIF5 = new javax.swing.JInternalFrame();
+        jButton4 = new javax.swing.JButton();
+        jButton7 = new javax.swing.JButton();
         JIF2 = new javax.swing.JInternalFrame();
+        jButton5 = new javax.swing.JButton();
+        jButton6 = new javax.swing.JButton();
+        jMenuBar_TOP = new javax.swing.JMenuBar();
+        jMenu1 = new javax.swing.JMenu();
+        jMenu2 = new javax.swing.JMenu();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Loja De Instrumentos");
-        setMinimumSize(new java.awt.Dimension(1280, 720));
         setPreferredSize(new java.awt.Dimension(1280, 720));
+
+        org.jdesktop.beansbinding.Binding binding = org.jdesktop.beansbinding.Bindings.createAutoBinding(org.jdesktop.beansbinding.AutoBinding.UpdateStrategy.READ_WRITE, JDP_principal, org.jdesktop.beansbinding.ELProperty.create("${maximumSize}"), this, org.jdesktop.beansbinding.BeanProperty.create("minimumSize"));
+        bindingGroup.addBinding(binding);
+
         getContentPane().setLayout(null);
 
-        jDesktopPane1.setBackground(new java.awt.Color(255, 255, 255));
-        jDesktopPane1.setPreferredSize(new java.awt.Dimension(1280, 720));
+        JDP_principal.setBackground(new java.awt.Color(255, 255, 255));
+        JDP_principal.setPreferredSize(new java.awt.Dimension(1920, 1080));
+
+        binding = org.jdesktop.beansbinding.Bindings.createAutoBinding(org.jdesktop.beansbinding.AutoBinding.UpdateStrategy.READ_WRITE, JIF1, org.jdesktop.beansbinding.ELProperty.create("${maximumSize}"), JDP_principal, org.jdesktop.beansbinding.BeanProperty.create("maximumSize"));
+        bindingGroup.addBinding(binding);
 
         JIF1.setVisible(true);
 
-        javax.swing.GroupLayout JIF1Layout = new javax.swing.GroupLayout(JIF1.getContentPane());
-        JIF1.getContentPane().setLayout(JIF1Layout);
-        JIF1Layout.setHorizontalGroup(
-            JIF1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 324, Short.MAX_VALUE)
-        );
-        JIF1Layout.setVerticalGroup(
-            JIF1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 121, Short.MAX_VALUE)
-        );
+        binding = org.jdesktop.beansbinding.Bindings.createAutoBinding(org.jdesktop.beansbinding.AutoBinding.UpdateStrategy.READ_WRITE, JIF1, org.jdesktop.beansbinding.ELProperty.create("${maximumSize}"), JIF1, org.jdesktop.beansbinding.BeanProperty.create("minimumSize"));
+        bindingGroup.addBinding(binding);
 
-        jDesktopPane1.add(JIF1);
-        JIF1.setBounds(10, 10, 340, 150);
+        JIF1.getContentPane().setLayout(null);
+
+        jButton1.setText("OK");
+        JIF1.getContentPane().add(jButton1);
+        jButton1.setBounds(140, 30, 90, 23);
+
+        jButton10.setText("Cancelar");
+        JIF1.getContentPane().add(jButton10);
+        jButton10.setBounds(40, 30, 90, 23);
+
+        JDP_principal.add(JIF1);
+        JIF1.setBounds(20, 90, 340, 150);
 
         JIF3.setVisible(true);
+        JIF3.getContentPane().setLayout(null);
 
-        javax.swing.GroupLayout JIF3Layout = new javax.swing.GroupLayout(JIF3.getContentPane());
-        JIF3.getContentPane().setLayout(JIF3Layout);
-        JIF3Layout.setHorizontalGroup(
-            JIF3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 324, Short.MAX_VALUE)
-        );
-        JIF3Layout.setVerticalGroup(
-            JIF3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 111, Short.MAX_VALUE)
-        );
+        jButton2.setText("OK");
+        JIF3.getContentPane().add(jButton2);
+        jButton2.setBounds(140, 40, 80, 23);
 
-        jDesktopPane1.add(JIF3);
-        JIF3.setBounds(10, 170, 340, 140);
+        jButton9.setText("Cancelar");
+        JIF3.getContentPane().add(jButton9);
+        jButton9.setBounds(50, 40, 75, 23);
+
+        JDP_principal.add(JIF3);
+        JIF3.setBounds(20, 250, 340, 140);
 
         JIF4.setVisible(true);
+        JIF4.getContentPane().setLayout(null);
 
-        javax.swing.GroupLayout JIF4Layout = new javax.swing.GroupLayout(JIF4.getContentPane());
-        JIF4.getContentPane().setLayout(JIF4Layout);
-        JIF4Layout.setHorizontalGroup(
-            JIF4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 324, Short.MAX_VALUE)
-        );
-        JIF4Layout.setVerticalGroup(
-            JIF4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 111, Short.MAX_VALUE)
-        );
+        jButton3.setText("Cancelar");
+        JIF4.getContentPane().add(jButton3);
+        jButton3.setBounds(160, 40, 80, 23);
 
-        jDesktopPane1.add(JIF4);
-        JIF4.setBounds(370, 170, 340, 140);
+        jButton8.setText("OK");
+        JIF4.getContentPane().add(jButton8);
+        jButton8.setBounds(60, 40, 80, 20);
+
+        JDP_principal.add(JIF4);
+        JIF4.setBounds(380, 250, 340, 140);
 
         JIF5.setVisible(true);
+        JIF5.getContentPane().setLayout(null);
 
-        javax.swing.GroupLayout JIF5Layout = new javax.swing.GroupLayout(JIF5.getContentPane());
-        JIF5.getContentPane().setLayout(JIF5Layout);
-        JIF5Layout.setHorizontalGroup(
-            JIF5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 684, Short.MAX_VALUE)
-        );
-        JIF5Layout.setVerticalGroup(
-            JIF5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 131, Short.MAX_VALUE)
-        );
+        jButton4.setText("Cancelar");
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton4ActionPerformed(evt);
+            }
+        });
+        JIF5.getContentPane().add(jButton4);
+        jButton4.setBounds(160, 40, 80, 23);
 
-        jDesktopPane1.add(JIF5);
-        JIF5.setBounds(10, 320, 700, 160);
+        jButton7.setText("OK");
+        JIF5.getContentPane().add(jButton7);
+        jButton7.setBounds(60, 40, 80, 23);
+
+        JDP_principal.add(JIF5);
+        JIF5.setBounds(20, 410, 700, 160);
 
         JIF2.setVisible(true);
+        JIF2.getContentPane().setLayout(null);
 
-        javax.swing.GroupLayout JIF2Layout = new javax.swing.GroupLayout(JIF2.getContentPane());
-        JIF2.getContentPane().setLayout(JIF2Layout);
-        JIF2Layout.setHorizontalGroup(
-            JIF2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 329, Short.MAX_VALUE)
-        );
-        JIF2Layout.setVerticalGroup(
-            JIF2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 121, Short.MAX_VALUE)
-        );
+        jButton5.setText("Cancelar");
+        JIF2.getContentPane().add(jButton5);
+        jButton5.setBounds(160, 50, 90, 23);
 
-        jDesktopPane1.add(JIF2);
-        JIF2.setBounds(370, 10, 345, 150);
+        jButton6.setText("OK");
+        JIF2.getContentPane().add(jButton6);
+        jButton6.setBounds(50, 50, 90, 23);
 
-        getContentPane().add(jDesktopPane1);
-        jDesktopPane1.setBounds(0, 0, 1280, 720);
+        JDP_principal.add(JIF2);
+        JIF2.setBounds(380, 90, 340, 150);
+
+        getContentPane().add(JDP_principal);
+        JDP_principal.setBounds(0, 0, 1920, 1080);
+
+        jMenu1.setText("File");
+        jMenuBar_TOP.add(jMenu1);
+
+        jMenu2.setText("Edit");
+        jMenuBar_TOP.add(jMenu2);
+
+        setJMenuBar(jMenuBar_TOP);
+
+        bindingGroup.bind();
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton4ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -164,11 +197,25 @@ public class frmPrincipal extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JDesktopPane JDP_principal;
     private javax.swing.JInternalFrame JIF1;
     private javax.swing.JInternalFrame JIF2;
     private javax.swing.JInternalFrame JIF3;
     private javax.swing.JInternalFrame JIF4;
     private javax.swing.JInternalFrame JIF5;
-    private javax.swing.JDesktopPane jDesktopPane1;
+    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton10;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton4;
+    private javax.swing.JButton jButton5;
+    private javax.swing.JButton jButton6;
+    private javax.swing.JButton jButton7;
+    private javax.swing.JButton jButton8;
+    private javax.swing.JButton jButton9;
+    private javax.swing.JMenu jMenu1;
+    private javax.swing.JMenu jMenu2;
+    private javax.swing.JMenuBar jMenuBar_TOP;
+    private org.jdesktop.beansbinding.BindingGroup bindingGroup;
     // End of variables declaration//GEN-END:variables
 }
