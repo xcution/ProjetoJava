@@ -20,7 +20,9 @@ public class frmPrincipal extends javax.swing.JFrame {
         CadastroProdutos.setVisible(false);
         Vendaprodutos.setVisible(false);
         ConsultaProduto.setVisible(false);
-        JIF5.setVisible(false);
+        ConsultaCliente.setVisible(false);
+        ContasReceber.setVisible(false);
+        ContasReceber.setVisible(false);
     }
 
     /**
@@ -88,6 +90,28 @@ public class frmPrincipal extends javax.swing.JFrame {
         BExcluir = new javax.swing.JButton();
         BAlterar = new javax.swing.JButton();
         BCancelar = new javax.swing.JButton();
+        ConsultaProduto = new javax.swing.JInternalFrame();
+        jButton3 = new javax.swing.JButton();
+        jButton8 = new javax.swing.JButton();
+        jPanel10 = new javax.swing.JPanel();
+        jTextField11 = new javax.swing.JTextField();
+        jToggleButton1 = new javax.swing.JToggleButton();
+        jCheckBox1 = new javax.swing.JCheckBox();
+        jCheckBox2 = new javax.swing.JCheckBox();
+        jCheckBox3 = new javax.swing.JCheckBox();
+        jScrollPane3 = new javax.swing.JScrollPane();
+        jTable2 = new javax.swing.JTable();
+        ConsultaCliente = new javax.swing.JInternalFrame();
+        BCancelarCC = new javax.swing.JButton();
+        BAlterarCC = new javax.swing.JButton();
+        jPanel11 = new javax.swing.JPanel();
+        ConsultaClientetxt = new javax.swing.JTextField();
+        ConsultaClieneteC = new javax.swing.JToggleButton();
+        jCheckBox4 = new javax.swing.JCheckBox();
+        jCheckBox5 = new javax.swing.JCheckBox();
+        jCheckBox6 = new javax.swing.JCheckBox();
+        jScrollPane4 = new javax.swing.JScrollPane();
+        ConsultaTabela = new javax.swing.JTable();
         Vendaprodutos = new javax.swing.JInternalFrame();
         jPanel6 = new javax.swing.JPanel();
         ExcluirVenda = new javax.swing.JButton();
@@ -123,17 +147,6 @@ public class frmPrincipal extends javax.swing.JFrame {
         jTextField10 = new javax.swing.JTextField();
         jLabel45 = new javax.swing.JLabel();
         jComboBox1 = new javax.swing.JComboBox();
-        ConsultaProduto = new javax.swing.JInternalFrame();
-        jButton3 = new javax.swing.JButton();
-        jButton8 = new javax.swing.JButton();
-        jPanel10 = new javax.swing.JPanel();
-        jTextField11 = new javax.swing.JTextField();
-        jToggleButton1 = new javax.swing.JToggleButton();
-        jCheckBox1 = new javax.swing.JCheckBox();
-        jCheckBox2 = new javax.swing.JCheckBox();
-        jCheckBox3 = new javax.swing.JCheckBox();
-        jScrollPane3 = new javax.swing.JScrollPane();
-        jTable2 = new javax.swing.JTable();
         CadastroProdutos = new javax.swing.JInternalFrame();
         jPanel3 = new javax.swing.JPanel();
         jLabel23 = new javax.swing.JLabel();
@@ -162,21 +175,28 @@ public class frmPrincipal extends javax.swing.JFrame {
         BExcluirP = new javax.swing.JButton();
         BAlterarP = new javax.swing.JButton();
         BCancelarP = new javax.swing.JButton();
-        JIF5 = new javax.swing.JInternalFrame();
-        jButton4 = new javax.swing.JButton();
-        jButton7 = new javax.swing.JButton();
+        ContasReceber = new javax.swing.JInternalFrame();
+        jPanel13 = new javax.swing.JPanel();
+        jScrollPane5 = new javax.swing.JScrollPane();
+        ContasRecebertabela = new javax.swing.JTable();
+        BCContas = new javax.swing.JButton();
+        jLabel47 = new javax.swing.JLabel();
+        ContasRecebertxt = new javax.swing.JTextField();
+        BConsultarCR = new javax.swing.JButton();
+        NomeContasR = new javax.swing.JCheckBox();
+        SobrenomeContasR = new javax.swing.JCheckBox();
+        CodigoContasR = new javax.swing.JCheckBox();
+        DataContasR = new javax.swing.JCheckBox();
         jMenuBar_TOP = new javax.swing.JMenuBar();
         CadastroMenu = new javax.swing.JMenu();
         CadastrarClienteMenu = new javax.swing.JMenuItem();
         CadProduto = new javax.swing.JMenuItem();
-        CadastrarFuncionarioMenu = new javax.swing.JMenuItem();
         jMenu2 = new javax.swing.JMenu();
         ConCliente = new javax.swing.JMenuItem();
-        ConProduto = new javax.swing.JMenuItem();
-        ConFuncionario = new javax.swing.JMenuItem();
+        ConProdutoM = new javax.swing.JMenuItem();
         MVendas = new javax.swing.JMenu();
+        VendaMercadoriaaM = new javax.swing.JMenuItem();
         jMenu3 = new javax.swing.JMenu();
-        FinExtrato = new javax.swing.JMenuItem();
         FinContasReceber = new javax.swing.JMenuItem();
         jMenu4 = new javax.swing.JMenu();
         jMenuItem8 = new javax.swing.JMenuItem();
@@ -334,7 +354,7 @@ public class frmPrincipal extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder("Enderço"));
+        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder("Endereço"));
 
         jLabel8.setText("Telefone:");
 
@@ -526,7 +546,7 @@ public class frmPrincipal extends javax.swing.JFrame {
                     .addGroup(CadastroClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                         .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(63, Short.MAX_VALUE))
         );
         CadastroClienteLayout.setVerticalGroup(
             CadastroClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -537,11 +557,205 @@ public class frmPrincipal extends javax.swing.JFrame {
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(160, Short.MAX_VALUE))
+                .addContainerGap(164, Short.MAX_VALUE))
         );
 
         JDP_principal.add(CadastroCliente);
-        CadastroCliente.setBounds(20, 20, 630, 650);
+        CadastroCliente.setBounds(0, 0, 630, 650);
+
+        ConsultaProduto.setResizable(true);
+        ConsultaProduto.setVisible(true);
+
+        jButton3.setText("Cancelar");
+
+        jButton8.setText("Alterar");
+
+        jPanel10.setBorder(javax.swing.BorderFactory.createTitledBorder("Consulta Mercadoria"));
+
+        jToggleButton1.setText("Consultar");
+
+        jCheckBox1.setText("Nome");
+
+        jCheckBox2.setText("Codigo");
+
+        jCheckBox3.setText("Marca");
+
+        jTable2.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null}
+            },
+            new String [] {
+                "Codigo", "Nome", "Marca", "Preco Unitario", "Quantidade"
+            }
+        ));
+        jScrollPane3.setViewportView(jTable2);
+        if (jTable2.getColumnModel().getColumnCount() > 0) {
+            jTable2.getColumnModel().getColumn(3).setHeaderValue("Endereço");
+            jTable2.getColumnModel().getColumn(4).setHeaderValue("Logadouro");
+        }
+
+        javax.swing.GroupLayout jPanel10Layout = new javax.swing.GroupLayout(jPanel10);
+        jPanel10.setLayout(jPanel10Layout);
+        jPanel10Layout.setHorizontalGroup(
+            jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel10Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jScrollPane3)
+                    .addGroup(jPanel10Layout.createSequentialGroup()
+                        .addComponent(jCheckBox2)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jCheckBox1)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jCheckBox3)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jTextField11, javax.swing.GroupLayout.DEFAULT_SIZE, 385, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jToggleButton1)))
+                .addGap(21, 21, 21))
+        );
+        jPanel10Layout.setVerticalGroup(
+            jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel10Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jTextField11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jToggleButton1)
+                    .addComponent(jCheckBox2)
+                    .addComponent(jCheckBox1)
+                    .addComponent(jCheckBox3))
+                .addGap(18, 18, 18)
+                .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        javax.swing.GroupLayout ConsultaProdutoLayout = new javax.swing.GroupLayout(ConsultaProduto.getContentPane());
+        ConsultaProduto.getContentPane().setLayout(ConsultaProdutoLayout);
+        ConsultaProdutoLayout.setHorizontalGroup(
+            ConsultaProdutoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(ConsultaProdutoLayout.createSequentialGroup()
+                .addGap(195, 195, 195)
+                .addComponent(jButton8, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(152, 152, 152)
+                .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(ConsultaProdutoLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jPanel10, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+        ConsultaProdutoLayout.setVerticalGroup(
+            ConsultaProdutoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, ConsultaProdutoLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jPanel10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(ConsultaProdutoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jButton8)
+                    .addComponent(jButton3))
+                .addGap(37, 37, 37))
+        );
+
+        JDP_principal.add(ConsultaProduto);
+        ConsultaProduto.setBounds(630, 0, 730, 290);
+
+        ConsultaCliente.setResizable(true);
+        ConsultaCliente.setVisible(true);
+
+        BCancelarCC.setText("Cancelar");
+
+        BAlterarCC.setText("Alterar");
+
+        jPanel11.setBorder(javax.swing.BorderFactory.createTitledBorder("Consulta Cliente"));
+
+        ConsultaClieneteC.setText("Consultar");
+
+        jCheckBox4.setText("Nome");
+
+        jCheckBox5.setText("Codigo");
+
+        jCheckBox6.setText("Sobrenome");
+
+        ConsultaTabela.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null}
+            },
+            new String [] {
+                "Codigo", "Nome", "Sobrenome", "RG", "CPF", "Data Nascimento", "Telefone", "Celular", "E-mail"
+            }
+        ));
+        jScrollPane4.setViewportView(ConsultaTabela);
+
+        javax.swing.GroupLayout jPanel11Layout = new javax.swing.GroupLayout(jPanel11);
+        jPanel11.setLayout(jPanel11Layout);
+        jPanel11Layout.setHorizontalGroup(
+            jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel11Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jScrollPane4)
+                    .addGroup(jPanel11Layout.createSequentialGroup()
+                        .addComponent(jCheckBox5)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jCheckBox4)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jCheckBox6)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(ConsultaClientetxt, javax.swing.GroupLayout.DEFAULT_SIZE, 555, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(ConsultaClieneteC)))
+                .addGap(21, 21, 21))
+        );
+        jPanel11Layout.setVerticalGroup(
+            jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel11Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(ConsultaClientetxt, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(ConsultaClieneteC)
+                    .addComponent(jCheckBox5)
+                    .addComponent(jCheckBox4)
+                    .addComponent(jCheckBox6))
+                .addGap(18, 18, 18)
+                .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        javax.swing.GroupLayout ConsultaClienteLayout = new javax.swing.GroupLayout(ConsultaCliente.getContentPane());
+        ConsultaCliente.getContentPane().setLayout(ConsultaClienteLayout);
+        ConsultaClienteLayout.setHorizontalGroup(
+            ConsultaClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(ConsultaClienteLayout.createSequentialGroup()
+                .addGap(270, 270, 270)
+                .addComponent(BAlterarCC, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(BCancelarCC, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(270, 270, 270))
+            .addGroup(ConsultaClienteLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jPanel11, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+        ConsultaClienteLayout.setVerticalGroup(
+            ConsultaClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, ConsultaClienteLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jPanel11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(ConsultaClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(BAlterarCC)
+                    .addComponent(BCancelarCC))
+                .addGap(37, 37, 37))
+        );
+
+        JDP_principal.add(ConsultaCliente);
+        ConsultaCliente.setBounds(630, 0, 730, 290);
 
         Vendaprodutos.setResizable(true);
         Vendaprodutos.setVisible(true);
@@ -787,19 +1001,23 @@ public class frmPrincipal extends javax.swing.JFrame {
         VendaprodutosLayout.setHorizontalGroup(
             VendaprodutosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(VendaprodutosLayout.createSequentialGroup()
-                .addGap(219, 219, 219)
+                .addGap(17, 17, 17)
                 .addGroup(VendaprodutosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton1)
-                    .addGroup(VendaprodutosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addGroup(VendaprodutosLayout.createSequentialGroup()
-                            .addComponent(jLabel43)
-                            .addGap(32, 32, 32)
-                            .addComponent(jTextField9, javax.swing.GroupLayout.PREFERRED_SIZE, 165, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addComponent(jPanel8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jPanel7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(VendaprodutosLayout.createSequentialGroup()
+                        .addGroup(VendaprodutosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(VendaprodutosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                .addGroup(VendaprodutosLayout.createSequentialGroup()
+                                    .addComponent(jLabel43)
+                                    .addGap(32, 32, 32)
+                                    .addComponent(jTextField9, javax.swing.GroupLayout.PREFERRED_SIZE, 165, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(jPanel8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(jPanel7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(jPanel9, javax.swing.GroupLayout.DEFAULT_SIZE, 586, Short.MAX_VALUE)))
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(VendaprodutosLayout.createSequentialGroup()
+                        .addComponent(jButton1)
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
         );
         VendaprodutosLayout.setVerticalGroup(
             VendaprodutosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -808,7 +1026,7 @@ public class frmPrincipal extends javax.swing.JFrame {
                 .addComponent(jPanel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jButton1)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 34, Short.MAX_VALUE)
                 .addComponent(jPanel8, javax.swing.GroupLayout.PREFERRED_SIZE, 136, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -822,102 +1040,7 @@ public class frmPrincipal extends javax.swing.JFrame {
         );
 
         JDP_principal.add(Vendaprodutos);
-        Vendaprodutos.setBounds(700, 190, 340, 140);
-
-        ConsultaProduto.setResizable(true);
-        ConsultaProduto.setVisible(true);
-
-        jButton3.setText("Cancelar");
-
-        jButton8.setText("Alterar");
-
-        jPanel10.setBorder(javax.swing.BorderFactory.createTitledBorder("Consulta Mercadoria"));
-
-        jToggleButton1.setText("Consultar");
-
-        jCheckBox1.setText("Nome");
-
-        jCheckBox2.setText("Codigo");
-
-        jCheckBox3.setText("Marca");
-
-        jTable2.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][] {
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null}
-            },
-            new String [] {
-                "Codigo", "Nome", "Marca", "Preco Unitario", "Quantidade"
-            }
-        ));
-        jScrollPane3.setViewportView(jTable2);
-
-        javax.swing.GroupLayout jPanel10Layout = new javax.swing.GroupLayout(jPanel10);
-        jPanel10.setLayout(jPanel10Layout);
-        jPanel10Layout.setHorizontalGroup(
-            jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel10Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
-                    .addGroup(jPanel10Layout.createSequentialGroup()
-                        .addComponent(jCheckBox2)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jCheckBox1)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jCheckBox3)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jTextField11)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jToggleButton1)))
-                .addGap(21, 21, 21))
-        );
-        jPanel10Layout.setVerticalGroup(
-            jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel10Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jTextField11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jToggleButton1)
-                    .addComponent(jCheckBox2)
-                    .addComponent(jCheckBox1)
-                    .addComponent(jCheckBox3))
-                .addGap(18, 18, 18)
-                .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(36, Short.MAX_VALUE))
-        );
-
-        javax.swing.GroupLayout ConsultaProdutoLayout = new javax.swing.GroupLayout(ConsultaProduto.getContentPane());
-        ConsultaProduto.getContentPane().setLayout(ConsultaProdutoLayout);
-        ConsultaProdutoLayout.setHorizontalGroup(
-            ConsultaProdutoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(ConsultaProdutoLayout.createSequentialGroup()
-                .addGap(195, 195, 195)
-                .addComponent(jButton8, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(34, 34, 34)
-                .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addGroup(ConsultaProdutoLayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jPanel10, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addContainerGap())
-        );
-        ConsultaProdutoLayout.setVerticalGroup(
-            ConsultaProdutoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, ConsultaProdutoLayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jPanel10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(ConsultaProdutoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton8)
-                    .addComponent(jButton3))
-                .addGap(37, 37, 37))
-        );
-
-        JDP_principal.add(ConsultaProduto);
-        ConsultaProduto.setBounds(720, 20, 340, 140);
+        Vendaprodutos.setBounds(100, 0, 639, 683);
 
         CadastroProdutos.setResizable(true);
         CadastroProdutos.setVisible(true);
@@ -1090,48 +1213,127 @@ public class frmPrincipal extends javax.swing.JFrame {
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(79, Short.MAX_VALUE))
+                .addContainerGap(107, Short.MAX_VALUE))
         );
 
         JDP_principal.add(CadastroProdutos);
-        CadastroProdutos.setBounds(710, 350, 737, 479);
+        CadastroProdutos.setBounds(200, 0, 736, 464);
 
-        JIF5.setResizable(true);
-        JIF5.setVisible(true);
+        ContasReceber.setResizable(true);
+        ContasReceber.setVisible(true);
 
-        jButton4.setText("Cancelar");
-        jButton4.addActionListener(new java.awt.event.ActionListener() {
+        jPanel13.setBorder(javax.swing.BorderFactory.createTitledBorder("Contas a Receber"));
+
+        ContasRecebertabela.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null}
+            },
+            new String [] {
+                "Codigo", "Nome", "Situação", "Valor a receber", "Parcelas", "Valor recebido"
+            }
+        ));
+        jScrollPane5.setViewportView(ContasRecebertabela);
+
+        BCContas.setText("Cancelar");
+        BCContas.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton4ActionPerformed(evt);
+                BCContasActionPerformed(evt);
             }
         });
 
-        jButton7.setText("OK");
+        jLabel47.setText("Consultar");
 
-        javax.swing.GroupLayout JIF5Layout = new javax.swing.GroupLayout(JIF5.getContentPane());
-        JIF5.getContentPane().setLayout(JIF5Layout);
-        JIF5Layout.setHorizontalGroup(
-            JIF5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(JIF5Layout.createSequentialGroup()
-                .addGap(60, 60, 60)
-                .addComponent(jButton7, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(20, 20, 20)
-                .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))
+        BConsultarCR.setText("Consultar");
+
+        NomeContasR.setText("Nome");
+
+        SobrenomeContasR.setText("Sobrenome");
+
+        CodigoContasR.setText("Codigo");
+
+        DataContasR.setText("Data");
+
+        javax.swing.GroupLayout jPanel13Layout = new javax.swing.GroupLayout(jPanel13);
+        jPanel13.setLayout(jPanel13Layout);
+        jPanel13Layout.setHorizontalGroup(
+            jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jScrollPane5)
+            .addGroup(jPanel13Layout.createSequentialGroup()
+                .addGap(19, 19, 19)
+                .addComponent(jLabel47)
+                .addGap(18, 18, 18)
+                .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel13Layout.createSequentialGroup()
+                        .addComponent(CodigoContasR)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(NomeContasR)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(SobrenomeContasR)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(DataContasR)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(BCContas, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel13Layout.createSequentialGroup()
+                        .addComponent(ContasRecebertxt, javax.swing.GroupLayout.PREFERRED_SIZE, 486, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(BConsultarCR)
+                        .addGap(0, 0, Short.MAX_VALUE)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
-        JIF5Layout.setVerticalGroup(
-            JIF5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(JIF5Layout.createSequentialGroup()
-                .addGap(40, 40, 40)
-                .addGroup(JIF5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jButton7)
-                    .addComponent(jButton4)))
+        jPanel13Layout.setVerticalGroup(
+            jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel13Layout.createSequentialGroup()
+                .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel47)
+                    .addComponent(ContasRecebertxt, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(BConsultarCR))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(NomeContasR)
+                        .addComponent(SobrenomeContasR)
+                        .addComponent(CodigoContasR)
+                        .addComponent(DataContasR))
+                    .addComponent(BCContas))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jScrollPane5, javax.swing.GroupLayout.DEFAULT_SIZE, 236, Short.MAX_VALUE)
+                .addContainerGap())
         );
 
-        JDP_principal.add(JIF5);
-        JIF5.setBounds(700, 150, 251, 101);
+        javax.swing.GroupLayout ContasReceberLayout = new javax.swing.GroupLayout(ContasReceber.getContentPane());
+        ContasReceber.getContentPane().setLayout(ContasReceberLayout);
+        ContasReceberLayout.setHorizontalGroup(
+            ContasReceberLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(ContasReceberLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jPanel13, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGap(25, 25, 25))
+        );
+        ContasReceberLayout.setVerticalGroup(
+            ContasReceberLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(ContasReceberLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jPanel13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(79, Short.MAX_VALUE))
+        );
+
+        JDP_principal.add(ContasReceber);
+        ContasReceber.setBounds(700, 150, 731, 461);
 
         getContentPane().add(JDP_principal);
-        JDP_principal.setBounds(0, 0, 1920, 1080);
+        JDP_principal.setBounds(0, 0, 3170, 1080);
 
         CadastroMenu.setText("Cadastro");
         CadastroMenu.addActionListener(new java.awt.event.ActionListener() {
@@ -1156,26 +1358,25 @@ public class frmPrincipal extends javax.swing.JFrame {
         });
         CadastroMenu.add(CadProduto);
 
-        CadastrarFuncionarioMenu.setText("Cadastrar funcionario");
-        CadastroMenu.add(CadastrarFuncionarioMenu);
-
         jMenuBar_TOP.add(CadastroMenu);
 
         jMenu2.setText("Consultar");
 
         ConCliente.setText("Consultar cliente");
-        jMenu2.add(ConCliente);
-
-        ConProduto.setText("Consultar produto");
-        ConProduto.addActionListener(new java.awt.event.ActionListener() {
+        ConCliente.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ConProdutoActionPerformed(evt);
+                ConClienteActionPerformed(evt);
             }
         });
-        jMenu2.add(ConProduto);
+        jMenu2.add(ConCliente);
 
-        ConFuncionario.setText("Consultar funcionario");
-        jMenu2.add(ConFuncionario);
+        ConProdutoM.setText("Consultar produto");
+        ConProdutoM.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ConProdutoMActionPerformed(evt);
+            }
+        });
+        jMenu2.add(ConProdutoM);
 
         jMenuBar_TOP.add(jMenu2);
 
@@ -1185,14 +1386,25 @@ public class frmPrincipal extends javax.swing.JFrame {
                 MVendasActionPerformed(evt);
             }
         });
+
+        VendaMercadoriaaM.setText("Venda de Mercadoria");
+        VendaMercadoriaaM.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                VendaMercadoriaaMActionPerformed(evt);
+            }
+        });
+        MVendas.add(VendaMercadoriaaM);
+
         jMenuBar_TOP.add(MVendas);
 
         jMenu3.setText("Financeiro");
 
-        FinExtrato.setText("Extrato");
-        jMenu3.add(FinExtrato);
-
         FinContasReceber.setText("Contas a receber");
+        FinContasReceber.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                FinContasReceberActionPerformed(evt);
+            }
+        });
         jMenu3.add(FinContasReceber);
 
         jMenuBar_TOP.add(jMenu3);
@@ -1214,16 +1426,18 @@ public class frmPrincipal extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+    private void BCContasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BCContasActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton4ActionPerformed
+    }//GEN-LAST:event_BCContasActionPerformed
 
     private void CadastrarClienteMenuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CadastrarClienteMenuActionPerformed
         CadastroCliente.setVisible(true);
         CadastroProdutos.setVisible(false);
         Vendaprodutos.setVisible(false);
+        ConsultaCliente.setVisible(false);
         ConsultaProduto.setVisible(false);
-        JIF5.setVisible(false);
+        ContasReceber.setVisible(false);
+        ContasReceber.setVisible(false);
     }//GEN-LAST:event_CadastrarClienteMenuActionPerformed
 
     private void SexotxtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SexotxtActionPerformed
@@ -1244,8 +1458,10 @@ public class frmPrincipal extends javax.swing.JFrame {
         CadastroCliente.setVisible(false);
         CadastroProdutos.setVisible(true);
         Vendaprodutos.setVisible(false);
+        ConsultaCliente.setVisible(false);
         ConsultaProduto.setVisible(false);
-        JIF5.setVisible(false);
+        ContasReceber.setVisible(false);
+        ContasReceber.setVisible(false);
     }//GEN-LAST:event_CadProdutoActionPerformed
 
     private void jTextField5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField5ActionPerformed
@@ -1260,17 +1476,49 @@ public class frmPrincipal extends javax.swing.JFrame {
         CadastroCliente.setVisible(false);
         CadastroProdutos.setVisible(false);
         Vendaprodutos.setVisible(true);
+        ConsultaCliente.setVisible(false);
         ConsultaProduto.setVisible(false);
-        JIF5.setVisible(false);
+        ContasReceber.setVisible(false);
+        ContasReceber.setVisible(false);
     }//GEN-LAST:event_MVendasActionPerformed
 
-    private void ConProdutoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ConProdutoActionPerformed
+    private void ConProdutoMActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ConProdutoMActionPerformed
         CadastroCliente.setVisible(false);
         CadastroProdutos.setVisible(false);
         Vendaprodutos.setVisible(false);
+        ConsultaCliente.setVisible(false);
         ConsultaProduto.setVisible(true);
-        JIF5.setVisible(false);
-    }//GEN-LAST:event_ConProdutoActionPerformed
+        ContasReceber.setVisible(false);
+        ContasReceber.setVisible(false);
+    }//GEN-LAST:event_ConProdutoMActionPerformed
+
+    private void VendaMercadoriaaMActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_VendaMercadoriaaMActionPerformed
+        CadastroCliente.setVisible(false);
+        CadastroProdutos.setVisible(false);
+        Vendaprodutos.setVisible(true);
+        ConsultaCliente.setVisible(false);
+        ConsultaProduto.setVisible(false);
+        ContasReceber.setVisible(false);
+        ContasReceber.setVisible(false);
+    }//GEN-LAST:event_VendaMercadoriaaMActionPerformed
+
+    private void ConClienteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ConClienteActionPerformed
+        CadastroCliente.setVisible(false);
+        CadastroProdutos.setVisible(false);
+        Vendaprodutos.setVisible(false);
+        ConsultaProduto.setVisible(false);
+        ConsultaCliente.setVisible(true);
+        ContasReceber.setVisible(false);
+    }//GEN-LAST:event_ConClienteActionPerformed
+
+    private void FinContasReceberActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_FinContasReceberActionPerformed
+        CadastroCliente.setVisible(false);
+        CadastroProdutos.setVisible(false);
+        Vendaprodutos.setVisible(false);
+        ConsultaProduto.setVisible(false);
+        ConsultaCliente.setVisible(false);
+        ContasReceber.setVisible(true);
+    }//GEN-LAST:event_FinContasReceberActionPerformed
 
     /**
      * @param args the command line arguments
@@ -1309,9 +1557,13 @@ public class frmPrincipal extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton BAlterar;
+    private javax.swing.JButton BAlterarCC;
     private javax.swing.JButton BAlterarP;
+    private javax.swing.JButton BCContas;
     private javax.swing.JButton BCancelar;
+    private javax.swing.JButton BCancelarCC;
     private javax.swing.JButton BCancelarP;
+    private javax.swing.JButton BConsultarCR;
     private javax.swing.JButton BExcluir;
     private javax.swing.JButton BExcluirP;
     private javax.swing.JButton BGravar;
@@ -1321,22 +1573,29 @@ public class frmPrincipal extends javax.swing.JFrame {
     private javax.swing.JTextField CPFtxt;
     private javax.swing.JMenuItem CadProduto;
     private javax.swing.JMenuItem CadastrarClienteMenu;
-    private javax.swing.JMenuItem CadastrarFuncionarioMenu;
     private javax.swing.JInternalFrame CadastroCliente;
     private javax.swing.JMenu CadastroMenu;
     private javax.swing.JInternalFrame CadastroProdutos;
     private javax.swing.JTextField Celulartxt;
     private javax.swing.JTextField Cidadetxt;
     private javax.swing.JTextField CodigoBarratxt;
+    private javax.swing.JCheckBox CodigoContasR;
     private javax.swing.JTextField CodigoPtxt;
     private javax.swing.JTextField Codigotxt;
     private javax.swing.JTextField Complementotxt;
     private javax.swing.JMenuItem ConCliente;
-    private javax.swing.JMenuItem ConFuncionario;
-    private javax.swing.JMenuItem ConProduto;
+    private javax.swing.JMenuItem ConProdutoM;
+    private javax.swing.JToggleButton ConsultaClieneteC;
+    private javax.swing.JInternalFrame ConsultaCliente;
+    private javax.swing.JTextField ConsultaClientetxt;
     private javax.swing.JInternalFrame ConsultaProduto;
+    private javax.swing.JTable ConsultaTabela;
+    private javax.swing.JInternalFrame ContasReceber;
+    private javax.swing.JTable ContasRecebertabela;
+    private javax.swing.JTextField ContasRecebertxt;
     private javax.swing.JTextField DataCadastrotxt;
     private javax.swing.JTextField DataCompratxt;
+    private javax.swing.JCheckBox DataContasR;
     private javax.swing.JTextField DataNacimentotxt;
     private javax.swing.JTextArea Descricaotxt;
     private javax.swing.JTextField Emailtxt;
@@ -1344,13 +1603,12 @@ public class frmPrincipal extends javax.swing.JFrame {
     private javax.swing.JComboBox EstadoCiviltxt;
     private javax.swing.JButton ExcluirVenda;
     private javax.swing.JMenuItem FinContasReceber;
-    private javax.swing.JMenuItem FinExtrato;
     private javax.swing.JButton GravarVenda;
     private javax.swing.JDesktopPane JDP_principal;
-    private javax.swing.JInternalFrame JIF5;
     private javax.swing.JTextField Logadourotxt;
     private javax.swing.JMenu MVendas;
     private javax.swing.JTextField Marcatxt;
+    private javax.swing.JCheckBox NomeContasR;
     private javax.swing.JTextField NomePtxt;
     private javax.swing.JTextField Nometxt;
     private javax.swing.JTextField Numerotxt;
@@ -1359,21 +1617,24 @@ public class frmPrincipal extends javax.swing.JFrame {
     private javax.swing.JTextField RGtxt;
     private javax.swing.JTextField Referenciatxt;
     private javax.swing.JComboBox Sexotxt;
+    private javax.swing.JCheckBox SobrenomeContasR;
     private javax.swing.JTextField Sobrenometxt;
     private javax.swing.JComboBox UFtxt;
     private javax.swing.JTextField Unidadetxt;
     private javax.swing.JTextField ValorCustotxt;
     private javax.swing.JTextField ValorUnitxt;
+    private javax.swing.JMenuItem VendaMercadoriaaM;
     private javax.swing.JInternalFrame Vendaprodutos;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton7;
     private javax.swing.JButton jButton8;
     private javax.swing.JButton jButton9;
     private javax.swing.JCheckBox jCheckBox1;
     private javax.swing.JCheckBox jCheckBox2;
     private javax.swing.JCheckBox jCheckBox3;
+    private javax.swing.JCheckBox jCheckBox4;
+    private javax.swing.JCheckBox jCheckBox5;
+    private javax.swing.JCheckBox jCheckBox6;
     private javax.swing.JComboBox jComboBox1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
@@ -1415,6 +1676,7 @@ public class frmPrincipal extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel43;
     private javax.swing.JLabel jLabel44;
     private javax.swing.JLabel jLabel45;
+    private javax.swing.JLabel jLabel47;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
@@ -1429,6 +1691,8 @@ public class frmPrincipal extends javax.swing.JFrame {
     private javax.swing.JMenuItem jMenuItem9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel10;
+    private javax.swing.JPanel jPanel11;
+    private javax.swing.JPanel jPanel13;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
@@ -1440,6 +1704,8 @@ public class frmPrincipal extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
+    private javax.swing.JScrollPane jScrollPane4;
+    private javax.swing.JScrollPane jScrollPane5;
     private javax.swing.JSpinner jSpinner1;
     private javax.swing.JTable jTable1;
     private javax.swing.JTable jTable2;
