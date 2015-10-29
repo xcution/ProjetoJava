@@ -8,3 +8,7 @@ desconhecido "20aa24a" por ele estar com medo de não conseguir arrumar ele pedi
 familiarizado com o GIT, logo apos quebrarmos a cabeça em cima pra ele terminar mais alguns ajustes foi feito uma 
 maquina virtual para uso provisorio do git até for arrumado o pc dele.
 Nosso trabalho se trata de um sistema de venda de produtos musicais.
+
+==============================
+* Observações
+O trabalho não foi desenvolvido com os requisitos solicitados. Favor observar o documento publicado no AVA e comparar com o projeto disponibilizado como versão1
