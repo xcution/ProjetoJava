@@ -11,4 +11,7 @@ Nosso trabalho se trata de um sistema de venda de produtos musicais.
 
 ==============================
 # Observações
-* O trabalho não foi desenvolvido com os requisitos solicitados. Favor observar o documento publicado no AVA e comparar com o projeto disponibilizado como versão1
+* O trabalho não foi desenvolvido com os requisitos solicitados. Favor observar o documento publicado no AVA e comparar com o projeto disponibilizado como versão1.
+* Todas as janelas foram agrupadas na classe frmPrincipal. Deve existir uma classe para cada JInternalFrame
+* Não foram definidos os listeners
+* Não foram definidos pacotes 
