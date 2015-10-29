@@ -10,5 +10,5 @@ maquina virtual para uso provisorio do git até for arrumado o pc dele.
 Nosso trabalho se trata de um sistema de venda de produtos musicais.
 
 ==============================
-* Observações
-O trabalho não foi desenvolvido com os requisitos solicitados. Favor observar o documento publicado no AVA e comparar com o projeto disponibilizado como versão1
+# Observações
+* O trabalho não foi desenvolvido com os requisitos solicitados. Favor observar o documento publicado no AVA e comparar com o projeto disponibilizado como versão1
