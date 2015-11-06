@@ -10,15 +10,17 @@ import java.io.BufferedWriter;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import javax.swing.JOptionPane;
 
 /**
  *
- * @author silvioghedin
+ * @author Xcution
  */
 public class LojaLog {
     public String LerLog(){
-        String Path="\\C:\\Log.txt";
+        String Path="Log.txt";
         FileReader fr = null;
         BufferedReader br = null;
         try {
@@ -31,31 +33,35 @@ public class LojaLog {
             }
             return sb.toString();
         } catch (IOException ex) {
-            JOptionPane.showMessageDialog(null, "Erro ao abrir o arquivo" + ex.getMessage());
+            //JOptionPane.showMessageDialog(null, "Erro ao abrir o arquivo" + ex.getMessage());
         } finally {
             if (br != null) {
                 try {
                     br.close();
                 } catch (IOException ex) {
-                    JOptionPane.showMessageDialog(null, "Erro ao abrir o arquivo" + ex.getMessage());
+                    //JOptionPane.showMessageDialog(null, "Erro ao abrir o arquivo" + ex.getMessage());
                 }
             }
             if (fr != null) {
                 try {
                     fr.close();
                 } catch (IOException ex) {
-                    JOptionPane.showMessageDialog(null, "Erro ao abrir o arquivo" + ex.getMessage());
+                    //JOptionPane.showMessageDialog(null, "Erro ao abrir o arquivo" + ex.getMessage());
                 }
             }
         }
         return null; 
     
     }
-    public void GravarLog(String Usuario,String Data, String Hora,String Erros, String MenuAtual, String  Acao){
+    public void GravarLog(String Usuario,String Erros, String MenuAtual, String  Acao){
         FileWriter fw = null;
         String fileName="Log";
         String Dados= LerLog();
-        String fileText="\nLog \nData do Acesso: "+Data+"\nHora do Acesso: "+Hora+"\nUltimo Usuario Logado:"+Usuario+
+        SimpleDateFormat Data = new SimpleDateFormat("dd/MM/yyyy"); 
+        SimpleDateFormat Hora = new SimpleDateFormat("hh:mm"); 
+        
+        
+        String fileText="\nLog \nData do Acesso: "+Data.format(new Date())+"\nHora do Acesso: "+Hora.format(new Date())+"\nUltimo Usuario Logado:"+Usuario+
                 "\nMenu Acessado: "+MenuAtual+"\nAção:"+Acao+"\nErros ocorridos:"+Erros+"\n\n"+Dados;
         fileName = fileName + ".txt";
         BufferedWriter bw = null;
@@ -65,20 +71,20 @@ public class LojaLog {
             bw.write(fileText);
             bw.flush();
         } catch (IOException ex) {
-            JOptionPane.showMessageDialog(null, "Erro ao Gravar o arquivo" + ex.getMessage());
+            JOptionPane.showMessageDialog(null, "Erro ao Gravar o Log" + ex.getMessage());
         } finally {
             if (bw != null) {
                 try {
                     bw.close();
                 } catch (IOException ex) {
-                    JOptionPane.showMessageDialog(null, "Erro ao Gravar o arquivo" + ex.getMessage());
+                    JOptionPane.showMessageDialog(null, "Erro ao Gravar o Log" + ex.getMessage());
                 }
             }
             if (fw != null) {
                 try {
                     fw.close();
                 } catch (IOException ex) {
-                    JOptionPane.showMessageDialog(null, "Erro ao Gravar o arquivo" + ex.getMessage());
+                    JOptionPane.showMessageDialog(null, "Erro ao Gravar o Log" + ex.getMessage());
                 }
             }
 

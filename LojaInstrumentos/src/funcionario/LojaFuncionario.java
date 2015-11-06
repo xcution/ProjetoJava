@@ -7,7 +7,7 @@ package loja.funcionario;
 
 /**
  *
- * @author silvioghedin
+ * @author Xcution
  */
 public class LojaFuncionario {
     
