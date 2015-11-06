@@ -1,0 +1,397 @@
+
+Log 
+Data do Acesso: 06/11/2015
+Hora do Acesso: 07:08
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Venda Mercadoria
+Ação:Vender mercadoria para clientes
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 06/11/2015
+Hora do Acesso: 07:08
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Contas a receber
+Ação:Receber contas dos clientes
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 06/11/2015
+Hora do Acesso: 07:08
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Logado No Sistema
+Ação:Logar
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 06/11/2015
+Hora do Acesso: 07:07
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Logado No Sistema
+Ação:Logar
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 06/11/2015
+Hora do Acesso: 07:06
+Ultimo Usuario Logado:admin
+Menu Acessado: Logado No Sistema
+Ação:Logar
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 06/11/2015
+Hora do Acesso: 03:18
+Ultimo Usuario Logado:admin
+Menu Acessado: Consulta cliente
+Ação:Consultar se cliente esta cadastrado e vereficar dados
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 06/11/2015
+Hora do Acesso: 03:18
+Ultimo Usuario Logado:admin
+Menu Acessado: Venda Mercadoria
+Ação:Vender mercadoria para clientes
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 06/11/2015
+Hora do Acesso: 03:18
+Ultimo Usuario Logado:admin
+Menu Acessado: Cadastrar Cliente
+Ação:Cadastrar Cliente
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 06/11/2015
+Hora do Acesso: 03:18
+Ultimo Usuario Logado:admin
+Menu Acessado: Logado No Sistema
+Ação:Logar
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 06/11/2015
+Hora do Acesso: 03:15
+Ultimo Usuario Logado:admin
+Menu Acessado: Logado No Sistema
+Ação:Logar
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 06/11/2015
+Hora do Acesso: 02:52
+Ultimo Usuario Logado:admin
+Menu Acessado: Consultar Produto
+Ação:Consultar se produto existe ou não
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 06/11/2015
+Hora do Acesso: 02:52
+Ultimo Usuario Logado:admin
+Menu Acessado: Cadastrar Cliente
+Ação:Cadastrar Cliente
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 06/11/2015
+Hora do Acesso: 02:52
+Ultimo Usuario Logado:admin
+Menu Acessado: Logado No Sistema
+Ação:Logar
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 06/11/2015
+Hora do Acesso: 02:46
+Ultimo Usuario Logado:admin
+Menu Acessado: Cadastrar Produto
+Ação:Cadastrar produto no estoque
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 06/11/2015
+Hora do Acesso: 02:46
+Ultimo Usuario Logado:admin
+Menu Acessado: Consulta cliente
+Ação:Consultar se cliente esta cadastrado e vereficar dados
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 06/11/2015
+Hora do Acesso: 02:45
+Ultimo Usuario Logado:admin
+Menu Acessado: Logado No Sistema
+Ação:Logar
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 06/11/2015
+Hora do Acesso: 02:42
+Ultimo Usuario Logado:admin
+Menu Acessado: Venda Mercadoria
+Ação:Vender mercadoria para clientes
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 06/11/2015
+Hora do Acesso: 02:42
+Ultimo Usuario Logado:admin
+Menu Acessado: Relatorio de vendas
+Ação:Relatorio de vendas detalhado
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 06/11/2015
+Hora do Acesso: 02:42
+Ultimo Usuario Logado:admin
+Menu Acessado: Contas a receber
+Ação:Receber contas dos clientes
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 06/11/2015
+Hora do Acesso: 02:42
+Ultimo Usuario Logado:admin
+Menu Acessado: Cadastrar Usuario
+Ação:Cadastrar usuario para uso do sistema
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 06/11/2015
+Hora do Acesso: 02:42
+Ultimo Usuario Logado:admin
+Menu Acessado: Logado No Sistema
+Ação:Logar
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 06/11/2015
+Hora do Acesso: 02:42
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Consulta cliente
+Ação:Consultar se cliente esta cadastrado e vereficar dados
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 06/11/2015
+Hora do Acesso: 02:42
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Alterar Cliente
+Ação:Alterar dados do cliente
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 06/11/2015
+Hora do Acesso: 02:42
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Alterar produto
+Ação:Alterar produto
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 06/11/2015
+Hora do Acesso: 02:42
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Alterar Usuario/Senha
+Ação:Alterar Usuario/Senha do usuario
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 06/11/2015
+Hora do Acesso: 02:41
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Logado No Sistema
+Ação:Logar
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 06/11/2015
+Hora do Acesso: 02:28
+Ultimo Usuario Logado:
+Menu Acessado: Relatorio de vendas
+Ação:Relatorio de vendas detalhado
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 06/11/2015
+Hora do Acesso: 02:28
+Ultimo Usuario Logado:
+Menu Acessado: Contas a receber
+Ação:Receber contas dos clientes
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 06/11/2015
+Hora do Acesso: 02:28
+Ultimo Usuario Logado:
+Menu Acessado: Venda Mercadoria
+Ação:Vender mercadoria para clientes
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 06/11/2015
+Hora do Acesso: 02:28
+Ultimo Usuario Logado:
+Menu Acessado: Consulta Vendas
+Ação:Consultar vendas realizadas
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 06/11/2015
+Hora do Acesso: 02:28
+Ultimo Usuario Logado:
+Menu Acessado: Consultar Produto
+Ação:Consultar se produto existe ou não
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 06/11/2015
+Hora do Acesso: 02:28
+Ultimo Usuario Logado:
+Menu Acessado: Consulta cliente
+Ação:Consultar se cliente esta cadastrado e vereficar dados
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 06/11/2015
+Hora do Acesso: 02:28
+Ultimo Usuario Logado:
+Menu Acessado: Alterar produto
+Ação:Alterar produto
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 06/11/2015
+Hora do Acesso: 02:28
+Ultimo Usuario Logado:
+Menu Acessado: Alterar Usuario/Senha
+Ação:Alterar Usuario/Senha do usuario
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 06/11/2015
+Hora do Acesso: 02:28
+Ultimo Usuario Logado:
+Menu Acessado: Alterar Cliente
+Ação:Alterar dados do cliente
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 06/11/2015
+Hora do Acesso: 02:28
+Ultimo Usuario Logado:
+Menu Acessado: Cadastrar Produto
+Ação:Cadastrar produto no estoque
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 06/11/2015
+Hora do Acesso: 02:28
+Ultimo Usuario Logado:
+Menu Acessado: Cadastrar Usuario
+Ação:Cadastrar usuario para uso do sistema
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 06/11/2015
+Hora do Acesso: 02:28
+Ultimo Usuario Logado:
+Menu Acessado: Cadastrar Cliente
+Ação:Cadastrar Cliente
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 06/11/2015
+Hora do Acesso: 02:28
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Logado No Sistema
+Ação:Logar
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 06/11/2015
+Hora do Acesso: 02:13
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Logado No Sistema
+Ação:Logar
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 06/11/2015
+Hora do Acesso: 02:06
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Logado No Sistema
+Ação:Logar
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 12425
+Hora do Acesso: 1515
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Logado No Sistema
+Ação:Logar
+Erros ocorridos:Fudeo
+
+
+Log 
+Data do Acesso: 12425
+Hora do Acesso: 1515
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Logado No Sistema
+Ação:Logar
+Erros ocorridos:Fudeo
+
+
+Log 
+Data do Acesso: 12425
+Hora do Acesso: 1515
+Ultimo Usuario Logado:admin
+Menu Acessado: Logado No Sistema
+Ação:Logar
+Erros ocorridos:Fudeo
+
+null
