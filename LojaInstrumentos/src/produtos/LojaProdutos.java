@@ -7,7 +7,7 @@ package loja.produtos;
 
 /**
  *
- * @author silvioghedin
+ * @author Xcution
  */
 public class LojaProdutos {
     public LojaProdutos(){}

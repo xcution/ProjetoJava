@@ -3,12 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package loja.funcionario;
+package loja.vendas;
 
 /**
  *
  * @author Xcution
  */
-public class LojaFuncionario {
+public class LojaVendas {
+    public LojaVendas(){}
+    public boolean VendaMercadoria(){
     
+    return true;
+    }
+    public boolean FinalizaVenda(){
+    
+    return true;
+    }
 }
