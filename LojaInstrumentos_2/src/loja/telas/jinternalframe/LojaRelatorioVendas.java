@@ -1,6 +1,6 @@
 
 package loja.telas.jinternalframe;
-
+import loja.botoes.LojaBotoes;
 
 public class LojaRelatorioVendas extends javax.swing.JInternalFrame {
 
@@ -69,8 +69,18 @@ public class LojaRelatorioVendas extends javax.swing.JInternalFrame {
         }
 
         BotaoOK.setText(bundle.getString("LojaRelatorioVendas.BotaoOK.text")); // NOI18N
+        BotaoOK.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BotaoOKActionPerformed(evt);
+            }
+        });
 
         BotaoCancelar.setText(bundle.getString("LojaRelatorioVendas.BotaoCancelar.text")); // NOI18N
+        BotaoCancelar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BotaoCancelarActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout PainelBotoesLayout = new javax.swing.GroupLayout(PainelBotoes);
         PainelBotoes.setLayout(PainelBotoesLayout);
@@ -130,6 +140,18 @@ public class LojaRelatorioVendas extends javax.swing.JInternalFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void BotaoOKActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BotaoOKActionPerformed
+        // TODO add your handling code here:
+        LojaBotoes LB = new LojaBotoes();
+        LB.OK();
+    }//GEN-LAST:event_BotaoOKActionPerformed
+
+    private void BotaoCancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BotaoCancelarActionPerformed
+        // TODO add your handling code here:
+        LojaBotoes LB = new LojaBotoes();
+        LB.Cancelar();
+    }//GEN-LAST:event_BotaoCancelarActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

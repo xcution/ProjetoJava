@@ -1,6 +1,6 @@
 
 package loja.telas.jinternalframe;
-
+import loja.botoes.LojaBotoes;
 
 public class LojaAlteraUsuario extends javax.swing.JInternalFrame {
 
@@ -108,8 +108,18 @@ public class LojaAlteraUsuario extends javax.swing.JInternalFrame {
         );
 
         BotaoGravar.setText(bundle.getString("LojaAlteraUsuario.BotaoGravar.text")); // NOI18N
+        BotaoGravar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BotaoGravarActionPerformed(evt);
+            }
+        });
 
         BotaoExcluir.setText(bundle.getString("LojaAlteraUsuario.BotaoExcluir.text")); // NOI18N
+        BotaoExcluir.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BotaoExcluirActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout PainelBotoesLayout = new javax.swing.GroupLayout(PainelBotoes);
         PainelBotoes.setLayout(PainelBotoesLayout);
@@ -148,6 +158,11 @@ public class LojaAlteraUsuario extends javax.swing.JInternalFrame {
         });
 
         BotaoLocalizar.setText(bundle.getString("LojaAlteraUsuario.BotaoLocalizar.text")); // NOI18N
+        BotaoLocalizar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BotaoLocalizarActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout PainelLocalizarUsuarioLayout = new javax.swing.GroupLayout(PainelLocalizarUsuario);
         PainelLocalizarUsuario.setLayout(PainelLocalizarUsuarioLayout);
@@ -209,8 +224,26 @@ public class LojaAlteraUsuario extends javax.swing.JInternalFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void TXTSenhaAtualActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TXTSenhaAtualActionPerformed
-        // TODO add your handling code here:
+        
     }//GEN-LAST:event_TXTSenhaAtualActionPerformed
+
+    private void BotaoLocalizarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BotaoLocalizarActionPerformed
+        // TODO add your handling code here:
+        LojaBotoes LB = new LojaBotoes();
+        LB.Localizar();
+    }//GEN-LAST:event_BotaoLocalizarActionPerformed
+
+    private void BotaoExcluirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BotaoExcluirActionPerformed
+        // TODO add your handling code here:
+        LojaBotoes LB = new LojaBotoes();
+        LB.Excluir();
+    }//GEN-LAST:event_BotaoExcluirActionPerformed
+
+    private void BotaoGravarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BotaoGravarActionPerformed
+        // TODO add your handling code here:
+        LojaBotoes LB = new LojaBotoes();
+        LB.Gravar();
+    }//GEN-LAST:event_BotaoGravarActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

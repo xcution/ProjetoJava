@@ -4,64 +4,31 @@ import javax.swing.JOptionPane;
 //action listener dos botoes 
 
 public class LojaBotoes {
-    
-    /*
-    public void CadastroCliente(){
-        JOptionPane.showMessageDialog(null, "O botão OK foi clicado");
-        LCC.show();
-        LCC.setVisible(true);
-        
+    public void Cancelar(){
+        System.out.println("teste Cancelar");
     }
-    public void CadastroUsuario(){
-        LCU.show();
+    public void Gravar(){
+    System.out.println("teste Gravar");
     }
-    public void CadastroProduto(){
-        LCP.show();
+    public void Excluir(){
+        System.out.println("teste Excluir");
     }
-    public void AlterarUsuarioSenha(){
-        LCC.show();
+    public void Atualizar(){
+        System.out.println("teste Atualizar");
     }
-    public void AlterarProduto(){
-        LCC.show();
+    public void Localizar(){
+    System.out.println("teste Localizar");
     }
-    public void AlterarCliente(){
-        LCC.show();
+    public void Consultar(){
+        System.out.println("TEste Consultar");
     }
-    public void ConsultaCliente(){
-        LCC.show();
+    public void Novo(){
+        System.out.println("Teste Novo");
     }
-    public void ConsultaProduto(){
-        LCC.show();
+    public void Incluir(){
+        System.out.println("Teste Incluir");
     }
-    public void ConsultaVendas(){
-        LCC.show();
+    public void OK(){
+        System.out.println("Teste OK");
     }
-    public void VendaMercadoria(){
-        LCC.show();
-    }
-    public void ContasReceber(){
-        LCC.show();
-    }
-    public void MovimentoCaixa(){
-        LCC.show();
-    }
-    public void Relatorio(){
-        LCC.show();
-    }
-    public void RelatorioClientes(){
-        LCC.show();
-    }
-    public void RelatorioContasReceber(){
-        LCC.show();
-    }
-    public void RelatorioProdutos(){
-        LCC.show();
-    }
-    public void RelatorioVendas(){
-        LCC.show();
-    }
-    
-    */
-    
-    
 }

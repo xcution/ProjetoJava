@@ -284,7 +284,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
         //chamar classe log e gerar log que foi clicado aqui e data hora e se der algum erro guardar no log 
         //usuario logado a aba que se encontra         
     }//GEN-LAST:event_VendasMenuActionPerformed
-
+    ////modificar aqui ta faltando coisas com consulta cliente
     private void ConsultaProdutoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ConsultaProdutoActionPerformed
         try {
             //chamar classe log e gerar log que foi clicado aqui e data hora e se der algum erro guardar no log
@@ -299,11 +299,10 @@ public class FrmPrincipal extends javax.swing.JFrame {
         LAU.setVisible(false);
         LConP.setVisible(true);
         LCC.setVisible(false);
-        LCC.setVisible(false);
         LCP.setVisible(false);
         LCU.setVisible(false);
-        
         LConV.setVisible(false);
+        LConC.setVisible(false);
         LMC.setVisible(false);
         LR.setVisible(false);
         LCR.setVisible(false);
@@ -351,7 +350,6 @@ public class FrmPrincipal extends javax.swing.JFrame {
         LAC.setVisible(false);
         LAU.setVisible(false);
         LConC.setVisible(true);
-        LCC.setVisible(false);
         LCC.setVisible(false);
         LCP.setVisible(false);
         LCU.setVisible(false);

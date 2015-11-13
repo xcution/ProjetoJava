@@ -111,6 +111,9 @@
                   <ResourceString bundle="loja/telas/jinternalframe/Bundle.properties" key="LojaConsultaProduto.BotaoAlterar.text" replaceFormat="java.util.ResourceBundle.getBundle(&quot;{bundleNameSlashes}&quot;).getString(&quot;{key}&quot;)"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BotaoAlterarActionPerformed"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JButton" name="BotaoCancelar">
               <Properties>
@@ -118,6 +121,9 @@
                   <ResourceString bundle="loja/telas/jinternalframe/Bundle.properties" key="LojaConsultaProduto.BotaoCancelar.text" replaceFormat="java.util.ResourceBundle.getBundle(&quot;{bundleNameSlashes}&quot;).getString(&quot;{key}&quot;)"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BotaoCancelarActionPerformed"/>
+              </Events>
             </Component>
           </SubComponents>
         </Container>
@@ -191,6 +197,9 @@
                   <ResourceString bundle="loja/telas/jinternalframe/Bundle.properties" key="LojaConsultaProduto.BotaoConsultar.text" replaceFormat="java.util.ResourceBundle.getBundle(&quot;{bundleNameSlashes}&quot;).getString(&quot;{key}&quot;)"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BotaoConsultarActionPerformed"/>
+              </Events>
             </Component>
           </SubComponents>
         </Container>

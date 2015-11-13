@@ -73,7 +73,7 @@
           <Properties>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
               <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
-                <TitledBorder title="Informa&#xe7;&#xf5;es do Cliente">
+                <TitledBorder title="Informacoes do Cliente">
                   <ResourceString PropertyName="titleX" bundle="loja/telas/jinternalframe/Bundle.properties" key="LojaCadastroCliente.PainelInfCADCliente.border.title" replaceFormat="java.util.ResourceBundle.getBundle(&quot;{bundleNameSlashes}&quot;).getString(&quot;{key}&quot;)"/>
                 </TitledBorder>
               </Border>
@@ -379,7 +379,7 @@
           <Properties>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
               <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
-                <TitledBorder title="Endere&#xe7;o">
+                <TitledBorder title="Endereco">
                   <ResourceString PropertyName="titleX" bundle="loja/telas/jinternalframe/Bundle.properties" key="LojaCadastroCliente.PainelEndCADCliente.border.title" replaceFormat="java.util.ResourceBundle.getBundle(&quot;{bundleNameSlashes}&quot;).getString(&quot;{key}&quot;)"/>
                 </TitledBorder>
               </Border>
@@ -763,6 +763,9 @@
                   <ResourceString bundle="loja/telas/jinternalframe/Bundle.properties" key="LojaCadastroCliente.JBGravar.text" replaceFormat="java.util.ResourceBundle.getBundle(&quot;{bundleNameSlashes}&quot;).getString(&quot;{key}&quot;)"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JBGravarActionPerformed"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JButton" name="JBNovo">
               <Properties>
@@ -770,6 +773,9 @@
                   <ResourceString bundle="loja/telas/jinternalframe/Bundle.properties" key="LojaCadastroCliente.JBNovo.text" replaceFormat="java.util.ResourceBundle.getBundle(&quot;{bundleNameSlashes}&quot;).getString(&quot;{key}&quot;)"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JBNovoActionPerformed"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JButton" name="JBExcluir">
               <Properties>
@@ -777,6 +783,9 @@
                   <ResourceString bundle="loja/telas/jinternalframe/Bundle.properties" key="LojaCadastroCliente.JBExcluir.text" replaceFormat="java.util.ResourceBundle.getBundle(&quot;{bundleNameSlashes}&quot;).getString(&quot;{key}&quot;)"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JBExcluirActionPerformed"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JButton" name="JBCancelar">
               <Properties>
@@ -784,6 +793,9 @@
                   <ResourceString bundle="loja/telas/jinternalframe/Bundle.properties" key="LojaCadastroCliente.JBCancelar.text" replaceFormat="java.util.ResourceBundle.getBundle(&quot;{bundleNameSlashes}&quot;).getString(&quot;{key}&quot;)"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JBCancelarActionPerformed"/>
+              </Events>
             </Component>
           </SubComponents>
         </Container>

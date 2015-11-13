@@ -1,6 +1,6 @@
 
 package loja.telas.jinternalframe;
-
+import loja.botoes.LojaBotoes;
 
 public class LojaAlteraCliente extends javax.swing.JInternalFrame {
 
@@ -9,6 +9,7 @@ public class LojaAlteraCliente extends javax.swing.JInternalFrame {
      */
     public LojaAlteraCliente() {
         initComponents();
+        
     }
 
     /**
@@ -118,25 +119,20 @@ public class LojaAlteraCliente extends javax.swing.JInternalFrame {
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(LCodigo)
-                            .addComponent(LNome))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 78, Short.MAX_VALUE)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(TXTCodigo, javax.swing.GroupLayout.DEFAULT_SIZE, 150, Short.MAX_VALUE)
-                            .addComponent(TXTNome)))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(LSobrenome)
-                            .addComponent(LSexo)
-                            .addComponent(LCPF))
-                        .addGap(57, 57, 57)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(TXTSobrenome)
-                            .addComponent(TXTSexo, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(TXTCPF))))
-                .addContainerGap())
+                    .addComponent(LCodigo)
+                    .addComponent(LNome)
+                    .addComponent(LSobrenome)
+                    .addComponent(LSexo)
+                    .addComponent(LCPF))
+                .addGap(58, 58, 58)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addComponent(TXTCodigo)
+                        .addComponent(TXTNome, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(TXTCPF)
+                        .addComponent(TXTSobrenome)
+                        .addComponent(TXTSexo, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -306,27 +302,27 @@ public class LojaAlteraCliente extends javax.swing.JInternalFrame {
                 .addContainerGap()
                 .addGroup(PainelEndCADClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(PainelEndCADClienteLayout.createSequentialGroup()
-                        .addGroup(PainelEndCADClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel14)
-                            .addComponent(jLabel19))
-                        .addGap(46, 46, 46)
-                        .addComponent(TXTComplemento, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jLabel14)
                         .addGap(0, 0, Short.MAX_VALUE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PainelEndCADClienteLayout.createSequentialGroup()
-                        .addGroup(PainelEndCADClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(PainelEndCADClienteLayout.createSequentialGroup()
+                        .addGroup(PainelEndCADClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                             .addGroup(PainelEndCADClienteLayout.createSequentialGroup()
+                                .addComponent(jLabel19)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(TXTComplemento, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, PainelEndCADClienteLayout.createSequentialGroup()
                                 .addGroup(PainelEndCADClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(jLabel8)
                                     .addComponent(jLabel10))
-                                .addGap(69, 69, 69)
-                                .addGroup(PainelEndCADClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addComponent(TXTEmail, javax.swing.GroupLayout.DEFAULT_SIZE, 149, Short.MAX_VALUE)
-                                    .addComponent(TXTtelefone)))
-                            .addGroup(PainelEndCADClienteLayout.createSequentialGroup()
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addGroup(PainelEndCADClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(TXTEmail, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(TXTtelefone, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, PainelEndCADClienteLayout.createSequentialGroup()
                                 .addComponent(jLabel16)
-                                .addGap(92, 92, 92)
-                                .addComponent(TXTPais, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(PainelEndCADClienteLayout.createSequentialGroup()
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(TXTPais, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, PainelEndCADClienteLayout.createSequentialGroup()
                                 .addGroup(PainelEndCADClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(jLabel11)
                                     .addComponent(jLabel18))
@@ -334,9 +330,9 @@ public class LojaAlteraCliente extends javax.swing.JInternalFrame {
                                 .addGroup(PainelEndCADClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(PainelEndCADClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                         .addComponent(TXTCidade, javax.swing.GroupLayout.DEFAULT_SIZE, 150, Short.MAX_VALUE)
-                                        .addComponent(TXTLogadouro))
+                                        .addComponent(TXTLogadouro, javax.swing.GroupLayout.DEFAULT_SIZE, 150, Short.MAX_VALUE))
                                     .addComponent(TXTEndereco, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 47, Short.MAX_VALUE)
                         .addGroup(PainelEndCADClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel12)
                             .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -347,11 +343,11 @@ public class LojaAlteraCliente extends javax.swing.JInternalFrame {
                 .addGap(27, 27, 27)
                 .addGroup(PainelEndCADClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(TXTBairro, javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(TXTNumero, javax.swing.GroupLayout.PREFERRED_SIZE, 151, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(TXTCEP, javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(TXTUF, javax.swing.GroupLayout.Alignment.TRAILING, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(TXTReferencia)
-                    .addComponent(TXTCelular, javax.swing.GroupLayout.PREFERRED_SIZE, 151, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(TXTCelular)
+                    .addComponent(TXTNumero))
                 .addGap(55, 55, 55))
         );
         PainelEndCADClienteLayout.setVerticalGroup(
@@ -414,17 +410,32 @@ public class LojaAlteraCliente extends javax.swing.JInternalFrame {
         );
 
         JBGravar.setText(bundle.getString("LojaAlteraCliente.JBGravar.text")); // NOI18N
+        JBGravar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                JBGravarActionPerformed(evt);
+            }
+        });
 
         JBExcluir.setText(bundle.getString("LojaAlteraCliente.JBExcluir.text")); // NOI18N
+        JBExcluir.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                JBExcluirActionPerformed(evt);
+            }
+        });
 
         JBCancelar.setText(bundle.getString("LojaAlteraCliente.JBCancelar.text")); // NOI18N
+        JBCancelar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                JBCancelarActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout PainelBotoesCADClienteLayout = new javax.swing.GroupLayout(PainelBotoesCADCliente);
         PainelBotoesCADCliente.setLayout(PainelBotoesCADClienteLayout);
         PainelBotoesCADClienteLayout.setHorizontalGroup(
             PainelBotoesCADClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(PainelBotoesCADClienteLayout.createSequentialGroup()
-                .addGap(111, 111, 111)
+                .addGap(189, 189, 189)
                 .addComponent(JBGravar, javax.swing.GroupLayout.PREFERRED_SIZE, 83, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(50, 50, 50)
                 .addComponent(JBExcluir, javax.swing.GroupLayout.PREFERRED_SIZE, 83, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -454,6 +465,11 @@ public class LojaAlteraCliente extends javax.swing.JInternalFrame {
         TXTBusca.setText(bundle.getString("LojaAlteraCliente.TXTBusca.text")); // NOI18N
 
         BotaoLocalizar.setText(bundle.getString("LojaAlteraCliente.BotaoLocalizar.text")); // NOI18N
+        BotaoLocalizar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BotaoLocalizarActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout PainelLocalizarLayout = new javax.swing.GroupLayout(PainelLocalizar);
         PainelLocalizar.setLayout(PainelLocalizarLayout);
@@ -540,7 +556,7 @@ public class LojaAlteraCliente extends javax.swing.JInternalFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addComponent(PainelCADCliente, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(PainelCADCliente, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -552,6 +568,30 @@ public class LojaAlteraCliente extends javax.swing.JInternalFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void BotaoLocalizarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BotaoLocalizarActionPerformed
+        // TODO add your handling code here:
+        LojaBotoes LB = new LojaBotoes();
+        LB.Localizar();
+    }//GEN-LAST:event_BotaoLocalizarActionPerformed
+
+    private void JBCancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JBCancelarActionPerformed
+        // TODO add your handling code here:
+        LojaBotoes LB = new LojaBotoes();
+        LB.Cancelar();
+    }//GEN-LAST:event_JBCancelarActionPerformed
+
+    private void JBExcluirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JBExcluirActionPerformed
+        // TODO add your handling code here:
+        LojaBotoes LB = new LojaBotoes();
+        LB.Excluir();
+    }//GEN-LAST:event_JBExcluirActionPerformed
+
+    private void JBGravarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JBGravarActionPerformed
+        // TODO add your handling code here:
+        LojaBotoes LB = new LojaBotoes();
+        LB.Gravar();
+    }//GEN-LAST:event_JBGravarActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

@@ -204,6 +204,9 @@
               <ResourceString bundle="loja/telas/jinternalframe/Bundle.properties" key="LojaCadastroUsuario.BotaoNovo.text" replaceFormat="java.util.ResourceBundle.getBundle(&quot;{bundleNameSlashes}&quot;).getString(&quot;{key}&quot;)"/>
             </Property>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BotaoNovoActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JButton" name="BotaoGravar">
           <Properties>
@@ -211,6 +214,9 @@
               <ResourceString bundle="loja/telas/jinternalframe/Bundle.properties" key="LojaCadastroUsuario.BotaoGravar.text" replaceFormat="java.util.ResourceBundle.getBundle(&quot;{bundleNameSlashes}&quot;).getString(&quot;{key}&quot;)"/>
             </Property>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BotaoGravarActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JButton" name="BotaoExcluir">
           <Properties>
@@ -218,6 +224,9 @@
               <ResourceString bundle="loja/telas/jinternalframe/Bundle.properties" key="LojaCadastroUsuario.BotaoExcluir.text" replaceFormat="java.util.ResourceBundle.getBundle(&quot;{bundleNameSlashes}&quot;).getString(&quot;{key}&quot;)"/>
             </Property>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BotaoExcluirActionPerformed"/>
+          </Events>
         </Component>
       </SubComponents>
     </Container>

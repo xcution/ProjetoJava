@@ -1,38 +1,146 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package loja.produtos;
 
-/**
- *
- * @author Xcution
- */
+import java.math.BigDecimal;
+
 public class LojaProdutos {
-    public LojaProdutos(){}
-    public boolean CadastraProdutos(){
-    return true;
-    }
-    public boolean ExcluirProdutos(){
+    private int Codigo;
+    private int QTD;
+    private BigDecimal ValorCusto;
+    private BigDecimal ValorUnitario;
+    private String Nome;
+    private String Marca;
+    private String Modelo;
+    private String Descricao;
+    private String DataCompra;
     
-    return true;
-    }
-    public boolean AtualizarProdutos(){
+    public LojaProdutos(){
     
-    return true;
+    }  
+
+    /**
+     * @return the Codigo
+     */
+    public int getCodigo() {
+        return Codigo;
     }
-    public boolean AddEstoque(){
-    
-    return true;
+
+    /**
+     * @param Codigo the Codigo to set
+     */
+    public void setCodigo(int Codigo) {
+        this.Codigo = Codigo;
     }
-    public boolean RmEstoque(){
-    
-    return true;
+
+    /**
+     * @return the QTD
+     */
+    public int getQTD() {
+        return QTD;
     }
-    public boolean ConsultaEstoque(){
-    
-    return true;
+
+    /**
+     * @param QTD the QTD to set
+     */
+    public void setQTD(int QTD) {
+        this.QTD = QTD;
     }
-    
+
+    /**
+     * @return the ValorCusto
+     */
+    public BigDecimal getValorCusto() {
+        return ValorCusto;
+    }
+
+    /**
+     * @param ValorCusto the ValorCusto to set
+     */
+    public void setValorCusto(BigDecimal ValorCusto) {
+        this.ValorCusto = ValorCusto;
+    }
+
+    /**
+     * @return the ValorUnitario
+     */
+    public BigDecimal getValorUnitario() {
+        return ValorUnitario;
+    }
+
+    /**
+     * @param ValorUnitario the ValorUnitario to set
+     */
+    public void setValorUnitario(BigDecimal ValorUnitario) {
+        this.ValorUnitario = ValorUnitario;
+    }
+
+    /**
+     * @return the Nome
+     */
+    public String getNome() {
+        return Nome;
+    }
+
+    /**
+     * @param Nome the Nome to set
+     */
+    public void setNome(String Nome) {
+        this.Nome = Nome;
+    }
+
+    /**
+     * @return the Marca
+     */
+    public String getMarca() {
+        return Marca;
+    }
+
+    /**
+     * @param Marca the Marca to set
+     */
+    public void setMarca(String Marca) {
+        this.Marca = Marca;
+    }
+
+    /**
+     * @return the Modelo
+     */
+    public String getModelo() {
+        return Modelo;
+    }
+
+    /**
+     * @param Modelo the Modelo to set
+     */
+    public void setModelo(String Modelo) {
+        this.Modelo = Modelo;
+    }
+
+    /**
+     * @return the Descricao
+     */
+    public String getDescricao() {
+        return Descricao;
+    }
+
+    /**
+     * @param Descricao the Descricao to set
+     */
+    public void setDescricao(String Descricao) {
+        this.Descricao = Descricao;
+    }
+
+    /**
+     * @return the DataCompra
+     */
+    public String getDataCompra() {
+        return DataCompra;
+    }
+
+    /**
+     * @param DataCompra the DataCompra to set
+     */
+    public void setDataCompra(String DataCompra) {
+        this.DataCompra = DataCompra;
+    }
 }

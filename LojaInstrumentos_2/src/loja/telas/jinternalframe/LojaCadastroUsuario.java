@@ -1,6 +1,6 @@
 
 package loja.telas.jinternalframe;
-
+import loja.botoes.LojaBotoes;
 
 public class LojaCadastroUsuario extends javax.swing.JInternalFrame {
 
@@ -102,10 +102,25 @@ public class LojaCadastroUsuario extends javax.swing.JInternalFrame {
         );
 
         BotaoNovo.setText(bundle.getString("LojaCadastroUsuario.BotaoNovo.text")); // NOI18N
+        BotaoNovo.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BotaoNovoActionPerformed(evt);
+            }
+        });
 
         BotaoGravar.setText(bundle.getString("LojaCadastroUsuario.BotaoGravar.text")); // NOI18N
+        BotaoGravar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BotaoGravarActionPerformed(evt);
+            }
+        });
 
         BotaoExcluir.setText(bundle.getString("LojaCadastroUsuario.BotaoExcluir.text")); // NOI18N
+        BotaoExcluir.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BotaoExcluirActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout PainelBotoesLayout = new javax.swing.GroupLayout(PainelBotoes);
         PainelBotoes.setLayout(PainelBotoesLayout);
@@ -154,6 +169,25 @@ public class LojaCadastroUsuario extends javax.swing.JInternalFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void BotaoNovoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BotaoNovoActionPerformed
+        // TODO add your handling code here:
+        LojaBotoes LB = new LojaBotoes();
+        LB.Novo();
+    }//GEN-LAST:event_BotaoNovoActionPerformed
+
+    private void BotaoGravarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BotaoGravarActionPerformed
+        // TODO add your handling code here:
+        LojaBotoes LB = new LojaBotoes();
+        LB.Gravar();
+    }//GEN-LAST:event_BotaoGravarActionPerformed
+
+    private void BotaoExcluirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BotaoExcluirActionPerformed
+        // TODO add your handling code here:
+        LojaBotoes LB = new LojaBotoes();
+        LB.Excluir();
+        
+    }//GEN-LAST:event_BotaoExcluirActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

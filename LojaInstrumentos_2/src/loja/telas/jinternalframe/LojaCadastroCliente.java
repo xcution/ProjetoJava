@@ -1,6 +1,6 @@
 
 package loja.telas.jinternalframe;
-
+import loja.botoes.LojaBotoes;
 
 public class LojaCadastroCliente extends javax.swing.JInternalFrame {
 
@@ -407,12 +407,32 @@ public class LojaCadastroCliente extends javax.swing.JInternalFrame {
         );
 
         JBGravar.setText(bundle.getString("LojaCadastroCliente.JBGravar.text")); // NOI18N
+        JBGravar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                JBGravarActionPerformed(evt);
+            }
+        });
 
         JBNovo.setText(bundle.getString("LojaCadastroCliente.JBNovo.text")); // NOI18N
+        JBNovo.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                JBNovoActionPerformed(evt);
+            }
+        });
 
         JBExcluir.setText(bundle.getString("LojaCadastroCliente.JBExcluir.text")); // NOI18N
+        JBExcluir.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                JBExcluirActionPerformed(evt);
+            }
+        });
 
         JBCancelar.setText(bundle.getString("LojaCadastroCliente.JBCancelar.text")); // NOI18N
+        JBCancelar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                JBCancelarActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout PainelBotoesCADClienteLayout = new javax.swing.GroupLayout(PainelBotoesCADCliente);
         PainelBotoesCADCliente.setLayout(PainelBotoesCADClienteLayout);
@@ -449,12 +469,9 @@ public class LojaCadastroCliente extends javax.swing.JInternalFrame {
                 .addContainerGap()
                 .addGroup(PainelCADClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(PainelBotoesCADCliente, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(PainelCADClienteLayout.createSequentialGroup()
-                        .addGroup(PainelCADClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(PainelInfCADCliente, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(PainelEndCADCliente, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(0, 0, Short.MAX_VALUE)))
-                .addContainerGap())
+                    .addComponent(PainelInfCADCliente, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(PainelEndCADCliente, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         PainelCADClienteLayout.setVerticalGroup(
             PainelCADClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -481,6 +498,31 @@ public class LojaCadastroCliente extends javax.swing.JInternalFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void JBCancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JBCancelarActionPerformed
+        // TODO add your handling code here:
+        LojaBotoes LB = new LojaBotoes();
+        LB.Cancelar();
+    }//GEN-LAST:event_JBCancelarActionPerformed
+
+    private void JBExcluirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JBExcluirActionPerformed
+        // TODO add your handling code here:
+        LojaBotoes LB = new LojaBotoes();
+        LB.Excluir();
+    }//GEN-LAST:event_JBExcluirActionPerformed
+
+    private void JBGravarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JBGravarActionPerformed
+        // TODO add your handling code here:
+        LojaBotoes LB = new LojaBotoes();
+        LB.Gravar();
+    }//GEN-LAST:event_JBGravarActionPerformed
+
+    private void JBNovoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JBNovoActionPerformed
+        // TODO add your handling code here:
+        LojaBotoes LB = new LojaBotoes();
+        LB.Novo();
+        
+    }//GEN-LAST:event_JBNovoActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

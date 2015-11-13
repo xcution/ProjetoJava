@@ -179,6 +179,9 @@
                   <ResourceString bundle="loja/telas/jinternalframe/Bundle.properties" key="LojaRelatorioContasReceber.BotaoOK.text" replaceFormat="java.util.ResourceBundle.getBundle(&quot;{bundleNameSlashes}&quot;).getString(&quot;{key}&quot;)"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BotaoOKActionPerformed"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JButton" name="BotaoCancelar">
               <Properties>
@@ -186,6 +189,9 @@
                   <ResourceString bundle="loja/telas/jinternalframe/Bundle.properties" key="LojaRelatorioContasReceber.BotaoCancelar.text" replaceFormat="java.util.ResourceBundle.getBundle(&quot;{bundleNameSlashes}&quot;).getString(&quot;{key}&quot;)"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BotaoCancelarActionPerformed"/>
+              </Events>
             </Component>
           </SubComponents>
         </Container>

@@ -20,7 +20,7 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
-              <Component id="PainelCADCliente" max="32767" attributes="0"/>
+              <Component id="PainelCADCliente" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
           </Group>
       </Group>
@@ -124,32 +124,24 @@
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" attributes="0">
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" attributes="0">
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="LCodigo" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="LNome" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace pref="78" max="32767" attributes="0"/>
-                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                      <Component id="TXTCodigo" pref="150" max="32767" attributes="0"/>
-                                      <Component id="TXTNome" max="32767" attributes="0"/>
-                                  </Group>
+                              <Component id="LCodigo" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="LNome" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="LSobrenome" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="LSexo" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="LCPF" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="TXTCodigo" max="32767" attributes="0"/>
+                                  <Component id="TXTNome" min="-2" pref="150" max="-2" attributes="0"/>
                               </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="LSobrenome" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="LSexo" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="LCPF" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="TXTSobrenome" max="32767" attributes="0"/>
-                                      <Component id="TXTSexo" max="32767" attributes="0"/>
-                                      <Component id="TXTCPF" alignment="0" max="32767" attributes="0"/>
-                                  </Group>
+                              <Group type="103" alignment="0" groupAlignment="0" attributes="0">
+                                  <Component id="TXTCPF" max="32767" attributes="0"/>
+                                  <Component id="TXTSobrenome" max="32767" attributes="0"/>
+                                  <Component id="TXTSexo" max="32767" attributes="0"/>
                               </Group>
                           </Group>
-                          <EmptySpace max="-2" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -405,31 +397,31 @@
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jLabel14" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel19" alignment="0" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
-                              <Component id="TXTComplemento" min="-2" pref="152" max="-2" attributes="0"/>
+                              <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                           </Group>
-                          <Group type="102" alignment="1" attributes="0">
-                              <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="jLabel19" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="TXTComplemento" min="-2" pref="150" max="-2" attributes="0"/>
+                                  </Group>
                                   <Group type="102" alignment="0" attributes="0">
                                       <Group type="103" groupAlignment="0" attributes="0">
                                           <Component id="jLabel8" alignment="0" min="-2" max="-2" attributes="0"/>
                                           <Component id="jLabel10" alignment="0" min="-2" max="-2" attributes="0"/>
                                       </Group>
-                                      <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                          <Component id="TXTEmail" pref="149" max="32767" attributes="0"/>
-                                          <Component id="TXTtelefone" max="32767" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="TXTEmail" alignment="1" min="-2" pref="150" max="-2" attributes="0"/>
+                                          <Component id="TXTtelefone" alignment="1" min="-2" pref="150" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
-                                  <Group type="102" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
                                       <Component id="jLabel16" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="92" max="-2" attributes="0"/>
-                                      <Component id="TXTPais" min="-2" pref="152" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="TXTPais" min="-2" pref="150" max="-2" attributes="0"/>
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
                                       <Group type="103" groupAlignment="0" attributes="0">
@@ -440,13 +432,13 @@
                                       <Group type="103" groupAlignment="0" attributes="0">
                                           <Group type="103" groupAlignment="0" max="-2" attributes="0">
                                               <Component id="TXTCidade" pref="150" max="32767" attributes="0"/>
-                                              <Component id="TXTLogadouro" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="TXTLogadouro" alignment="0" pref="150" max="32767" attributes="0"/>
                                           </Group>
                                           <Component id="TXTEndereco" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
                               </Group>
-                              <EmptySpace max="32767" attributes="0"/>
+                              <EmptySpace pref="47" max="32767" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Component id="jLabel12" alignment="0" min="-2" max="-2" attributes="0"/>
                                   <Component id="jLabel9" alignment="0" min="-2" pref="41" max="-2" attributes="0"/>
@@ -460,11 +452,11 @@
                       <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
                           <Component id="TXTBairro" alignment="1" max="32767" attributes="0"/>
-                          <Component id="TXTNumero" alignment="0" min="-2" pref="151" max="-2" attributes="0"/>
                           <Component id="TXTCEP" alignment="1" max="32767" attributes="0"/>
                           <Component id="TXTUF" alignment="1" max="32767" attributes="0"/>
                           <Component id="TXTReferencia" alignment="0" max="32767" attributes="0"/>
-                          <Component id="TXTCelular" alignment="0" min="-2" pref="151" max="-2" attributes="0"/>
+                          <Component id="TXTCelular" alignment="0" max="32767" attributes="0"/>
+                          <Component id="TXTNumero" alignment="0" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
                   </Group>
@@ -740,7 +732,7 @@
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="111" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="189" max="-2" attributes="0"/>
                       <Component id="JBGravar" min="-2" pref="83" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
                       <Component id="JBExcluir" min="-2" pref="83" max="-2" attributes="0"/>
@@ -771,6 +763,9 @@
                   <ResourceString bundle="loja/telas/jinternalframe/Bundle.properties" key="LojaAlteraCliente.JBGravar.text" replaceFormat="java.util.ResourceBundle.getBundle(&quot;{bundleNameSlashes}&quot;).getString(&quot;{key}&quot;)"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JBGravarActionPerformed"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JButton" name="JBExcluir">
               <Properties>
@@ -778,6 +773,9 @@
                   <ResourceString bundle="loja/telas/jinternalframe/Bundle.properties" key="LojaAlteraCliente.JBExcluir.text" replaceFormat="java.util.ResourceBundle.getBundle(&quot;{bundleNameSlashes}&quot;).getString(&quot;{key}&quot;)"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JBExcluirActionPerformed"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JButton" name="JBCancelar">
               <Properties>
@@ -785,6 +783,9 @@
                   <ResourceString bundle="loja/telas/jinternalframe/Bundle.properties" key="LojaAlteraCliente.JBCancelar.text" replaceFormat="java.util.ResourceBundle.getBundle(&quot;{bundleNameSlashes}&quot;).getString(&quot;{key}&quot;)"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JBCancelarActionPerformed"/>
+              </Events>
             </Component>
           </SubComponents>
         </Container>
@@ -868,6 +869,9 @@
                   <ResourceString bundle="loja/telas/jinternalframe/Bundle.properties" key="LojaAlteraCliente.BotaoLocalizar.text" replaceFormat="java.util.ResourceBundle.getBundle(&quot;{bundleNameSlashes}&quot;).getString(&quot;{key}&quot;)"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BotaoLocalizarActionPerformed"/>
+              </Events>
             </Component>
           </SubComponents>
         </Container>

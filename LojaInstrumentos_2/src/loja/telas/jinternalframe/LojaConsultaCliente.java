@@ -1,6 +1,6 @@
 
 package loja.telas.jinternalframe;
-
+import loja.botoes.LojaBotoes;
 public class LojaConsultaCliente extends javax.swing.JInternalFrame {
 
     /**
@@ -36,8 +36,18 @@ public class LojaConsultaCliente extends javax.swing.JInternalFrame {
         PainelConsultaCliente.setBorder(javax.swing.BorderFactory.createTitledBorder(bundle.getString("LojaConsultaCliente.PainelConsultaCliente.border.title"))); // NOI18N
 
         BotaoAlterar.setText(bundle.getString("LojaConsultaCliente.BotaoAlterar.text")); // NOI18N
+        BotaoAlterar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BotaoAlterarActionPerformed(evt);
+            }
+        });
 
         BotaoCancelar.setText(bundle.getString("LojaConsultaCliente.BotaoCancelar.text")); // NOI18N
+        BotaoCancelar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BotaoCancelarActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout PainelBotoesLayout = new javax.swing.GroupLayout(PainelBotoes);
         PainelBotoes.setLayout(PainelBotoesLayout);
@@ -74,6 +84,11 @@ public class LojaConsultaCliente extends javax.swing.JInternalFrame {
         });
 
         BotaoConsulta.setText(bundle.getString("LojaConsultaCliente.BotaoConsulta.text")); // NOI18N
+        BotaoConsulta.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BotaoConsultaActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout PainelDadosLayout = new javax.swing.GroupLayout(PainelDados);
         PainelDados.setLayout(PainelDadosLayout);
@@ -173,8 +188,26 @@ public class LojaConsultaCliente extends javax.swing.JInternalFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void TXTConsultaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TXTConsultaActionPerformed
-        // TODO add your handling code here:
+
     }//GEN-LAST:event_TXTConsultaActionPerformed
+
+    private void BotaoAlterarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BotaoAlterarActionPerformed
+        // TODO add your handling code here:
+        LojaBotoes LB = new LojaBotoes();
+        LB.Atualizar();
+    }//GEN-LAST:event_BotaoAlterarActionPerformed
+
+    private void BotaoCancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BotaoCancelarActionPerformed
+        // TODO add your handling code here:
+        LojaBotoes LB = new LojaBotoes();
+        LB.Cancelar();
+    }//GEN-LAST:event_BotaoCancelarActionPerformed
+
+    private void BotaoConsultaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BotaoConsultaActionPerformed
+        // TODO add your handling code here:
+        LojaBotoes LB = new LojaBotoes();
+        LB.Consultar();
+    }//GEN-LAST:event_BotaoConsultaActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

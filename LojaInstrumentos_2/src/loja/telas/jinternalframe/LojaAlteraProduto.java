@@ -1,6 +1,6 @@
 
 package loja.telas.jinternalframe;
-
+import loja.botoes.LojaBotoes;
 
 public class LojaAlteraProduto extends javax.swing.JInternalFrame {
 
@@ -61,10 +61,25 @@ public class LojaAlteraProduto extends javax.swing.JInternalFrame {
         PainelCadastroProdutos.setBorder(javax.swing.BorderFactory.createTitledBorder(bundle.getString("LojaAlteraProduto.PainelCadastroProdutos.border.title"))); // NOI18N
 
         BotaoGravar.setText(bundle.getString("LojaAlteraProduto.BotaoGravar.text")); // NOI18N
+        BotaoGravar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BotaoGravarActionPerformed(evt);
+            }
+        });
 
         BotaoExcluir.setText(bundle.getString("LojaAlteraProduto.BotaoExcluir.text")); // NOI18N
+        BotaoExcluir.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BotaoExcluirActionPerformed(evt);
+            }
+        });
 
         BotaoCancelar.setText(bundle.getString("LojaAlteraProduto.BotaoCancelar.text")); // NOI18N
+        BotaoCancelar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BotaoCancelarActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout PainelBotoesLayout = new javax.swing.GroupLayout(PainelBotoes);
         PainelBotoes.setLayout(PainelBotoesLayout);
@@ -272,6 +287,11 @@ public class LojaAlteraProduto extends javax.swing.JInternalFrame {
         TXTBusca.setText(bundle.getString("LojaAlteraProduto.TXTBusca.text")); // NOI18N
 
         BotaoLocalizar.setText(bundle.getString("LojaAlteraProduto.BotaoLocalizar.text")); // NOI18N
+        BotaoLocalizar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BotaoLocalizarActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout PainelLocalizarLayout = new javax.swing.GroupLayout(PainelLocalizar);
         PainelLocalizar.setLayout(PainelLocalizarLayout);
@@ -344,7 +364,7 @@ public class LojaAlteraProduto extends javax.swing.JInternalFrame {
             .addGroup(PainelTabelaLayout.createSequentialGroup()
                 .addGap(19, 19, 19)
                 .addComponent(SPTabela, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(12, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -375,6 +395,30 @@ public class LojaAlteraProduto extends javax.swing.JInternalFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void BotaoLocalizarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BotaoLocalizarActionPerformed
+        // TODO add your handling code here:
+        LojaBotoes LB = new LojaBotoes();
+        LB.Localizar();
+    }//GEN-LAST:event_BotaoLocalizarActionPerformed
+
+    private void BotaoGravarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BotaoGravarActionPerformed
+        // TODO add your handling code here:
+        LojaBotoes LB = new LojaBotoes();
+        LB.Gravar();
+    }//GEN-LAST:event_BotaoGravarActionPerformed
+
+    private void BotaoExcluirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BotaoExcluirActionPerformed
+        // TODO add your handling code here:
+        LojaBotoes LB = new LojaBotoes();
+        LB.Excluir();
+    }//GEN-LAST:event_BotaoExcluirActionPerformed
+
+    private void BotaoCancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BotaoCancelarActionPerformed
+        // TODO add your handling code here:
+        LojaBotoes LB = new LojaBotoes();
+        LB.Cancelar();
+    }//GEN-LAST:event_BotaoCancelarActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

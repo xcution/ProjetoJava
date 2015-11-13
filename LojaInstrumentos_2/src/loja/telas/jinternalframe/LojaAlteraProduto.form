@@ -164,6 +164,9 @@
                   <ResourceString bundle="loja/telas/jinternalframe/Bundle.properties" key="LojaAlteraProduto.BotaoGravar.text" replaceFormat="java.util.ResourceBundle.getBundle(&quot;{bundleNameSlashes}&quot;).getString(&quot;{key}&quot;)"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BotaoGravarActionPerformed"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JButton" name="BotaoExcluir">
               <Properties>
@@ -171,6 +174,9 @@
                   <ResourceString bundle="loja/telas/jinternalframe/Bundle.properties" key="LojaAlteraProduto.BotaoExcluir.text" replaceFormat="java.util.ResourceBundle.getBundle(&quot;{bundleNameSlashes}&quot;).getString(&quot;{key}&quot;)"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BotaoExcluirActionPerformed"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JButton" name="BotaoCancelar">
               <Properties>
@@ -178,6 +184,9 @@
                   <ResourceString bundle="loja/telas/jinternalframe/Bundle.properties" key="LojaAlteraProduto.BotaoCancelar.text" replaceFormat="java.util.ResourceBundle.getBundle(&quot;{bundleNameSlashes}&quot;).getString(&quot;{key}&quot;)"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BotaoCancelarActionPerformed"/>
+              </Events>
             </Component>
           </SubComponents>
         </Container>
@@ -513,6 +522,9 @@
               <ResourceString bundle="loja/telas/jinternalframe/Bundle.properties" key="LojaAlteraProduto.BotaoLocalizar.text" replaceFormat="java.util.ResourceBundle.getBundle(&quot;{bundleNameSlashes}&quot;).getString(&quot;{key}&quot;)"/>
             </Property>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BotaoLocalizarActionPerformed"/>
+          </Events>
         </Component>
       </SubComponents>
     </Container>
@@ -533,7 +545,7 @@
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
                   <Component id="SPTabela" min="-2" pref="97" max="-2" attributes="0"/>
-                  <EmptySpace pref="12" max="32767" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>

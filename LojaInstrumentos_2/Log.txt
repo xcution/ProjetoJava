@@ -1,5 +1,581 @@
 
 Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 07:41
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Cadastrar Usuario
+Ação:Cadastrar usuario para uso do sistema
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 07:41
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Cadastrar Cliente
+Ação:Cadastrar Cliente
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 07:41
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Cadastrar Cliente
+Ação:Cadastrar Cliente
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 07:41
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Cadastrar Cliente
+Ação:Cadastrar Cliente
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 07:41
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Cadastrar Cliente
+Ação:Cadastrar Cliente
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 07:41
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Logado No Sistema
+Ação:Logar
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 07:34
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Cadastrar Usuario
+Ação:Cadastrar usuario para uso do sistema
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 07:34
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Cadastrar Produto
+Ação:Cadastrar produto no estoque
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 07:34
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Alterar Usuario/Senha
+Ação:Alterar Usuario/Senha do usuario
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 07:34
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Cadastrar Usuario
+Ação:Cadastrar usuario para uso do sistema
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 07:34
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Cadastrar Produto
+Ação:Cadastrar produto no estoque
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 07:34
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Logado No Sistema
+Ação:Logar
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 03:17
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Cadastrar Usuario
+Ação:Cadastrar usuario para uso do sistema
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 03:17
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Cadastrar Usuario
+Ação:Cadastrar usuario para uso do sistema
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 03:17
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Cadastrar Cliente
+Ação:Cadastrar Cliente
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 03:17
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Cadastrar Cliente
+Ação:Cadastrar Cliente
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 03:17
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Cadastrar Cliente
+Ação:Cadastrar Cliente
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 03:17
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Cadastrar Cliente
+Ação:Cadastrar Cliente
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 03:17
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Cadastrar Usuario
+Ação:Cadastrar usuario para uso do sistema
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 03:17
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Cadastrar Cliente
+Ação:Cadastrar Cliente
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 03:17
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Logado No Sistema
+Ação:Logar
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 03:16
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Consulta cliente
+Ação:Consultar se cliente esta cadastrado e vereficar dados
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 03:16
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Consulta Vendas
+Ação:Consultar vendas realizadas
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 03:16
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Consultar Produto
+Ação:Consultar se produto existe ou não
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 03:16
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Consulta cliente
+Ação:Consultar se cliente esta cadastrado e vereficar dados
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 03:16
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Consulta cliente
+Ação:Consultar se cliente esta cadastrado e vereficar dados
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 03:16
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Consulta Vendas
+Ação:Consultar vendas realizadas
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 03:16
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Consultar Produto
+Ação:Consultar se produto existe ou não
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 03:16
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Consultar Produto
+Ação:Consultar se produto existe ou não
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 03:16
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Consulta cliente
+Ação:Consultar se cliente esta cadastrado e vereficar dados
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 03:16
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Logado No Sistema
+Ação:Logar
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 03:15
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Consultar Produto
+Ação:Consultar se produto existe ou não
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 03:15
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Consulta cliente
+Ação:Consultar se cliente esta cadastrado e vereficar dados
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 03:15
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Consulta Vendas
+Ação:Consultar vendas realizadas
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 03:15
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Consultar Produto
+Ação:Consultar se produto existe ou não
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 03:15
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Consulta cliente
+Ação:Consultar se cliente esta cadastrado e vereficar dados
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 03:15
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Logado No Sistema
+Ação:Logar
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 03:13
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Consulta cliente
+Ação:Consultar se cliente esta cadastrado e vereficar dados
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 03:13
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Consultar Produto
+Ação:Consultar se produto existe ou não
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 03:13
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Consulta cliente
+Ação:Consultar se cliente esta cadastrado e vereficar dados
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 03:13
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Logado No Sistema
+Ação:Logar
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 03:13
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Consultar Produto
+Ação:Consultar se produto existe ou não
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 03:13
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Consulta cliente
+Ação:Consultar se cliente esta cadastrado e vereficar dados
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 03:12
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Consulta Vendas
+Ação:Consultar vendas realizadas
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 03:11
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Consultar Produto
+Ação:Consultar se produto existe ou não
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 03:11
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Consulta cliente
+Ação:Consultar se cliente esta cadastrado e vereficar dados
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 03:11
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Logado No Sistema
+Ação:Logar
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 03:11
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Relatorio de vendas
+Ação:Relatorio de vendas detalhado
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 03:11
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Contas a receber
+Ação:Receber contas dos clientes
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 03:11
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Venda Mercadoria
+Ação:Vender mercadoria para clientes
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 03:10
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Consulta Vendas
+Ação:Consultar vendas realizadas
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 03:10
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Consultar Produto
+Ação:Consultar se produto existe ou não
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 03:09
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Consulta cliente
+Ação:Consultar se cliente esta cadastrado e vereficar dados
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 03:09
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Cadastrar Produto
+Ação:Cadastrar produto no estoque
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 03:09
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Cadastrar Usuario
+Ação:Cadastrar usuario para uso do sistema
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 03:09
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Cadastrar Cliente
+Ação:Cadastrar Cliente
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 03:08
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Logado No Sistema
+Ação:Logar
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 02:44
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Alterar Cliente
+Ação:Alterar dados do cliente
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 02:44
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Alterar Usuario/Senha
+Ação:Alterar Usuario/Senha do usuario
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 02:44
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Logado No Sistema
+Ação:Logar
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 13/11/2015
+Hora do Acesso: 02:36
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Logado No Sistema
+Ação:Logar
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 06/11/2015
+Hora do Acesso: 09:49
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Cadastrar Cliente
+Ação:Cadastrar Cliente
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 06/11/2015
+Hora do Acesso: 09:49
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Logado No Sistema
+Ação:Logar
+Erros ocorridos:
+
+
+Log 
+Data do Acesso: 06/11/2015
+Hora do Acesso: 08:56
+Ultimo Usuario Logado:Xcution
+Menu Acessado: Logado No Sistema
+Ação:Logar
+Erros ocorridos:
+
+
+Log 
 Data do Acesso: 06/11/2015
 Hora do Acesso: 07:08
 Ultimo Usuario Logado:Xcution

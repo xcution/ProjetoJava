@@ -1,6 +1,6 @@
 
 package loja.telas.jinternalframe;
-
+import loja.botoes.LojaBotoes;
 
 public class LojaConsultaProduto extends javax.swing.JInternalFrame {
 
@@ -37,8 +37,18 @@ public class LojaConsultaProduto extends javax.swing.JInternalFrame {
         PanelConsultaProduto.setBorder(javax.swing.BorderFactory.createTitledBorder(bundle.getString("LojaConsultaProduto.PanelConsultaProduto.border.title"))); // NOI18N
 
         BotaoAlterar.setText(bundle.getString("LojaConsultaProduto.BotaoAlterar.text")); // NOI18N
+        BotaoAlterar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BotaoAlterarActionPerformed(evt);
+            }
+        });
 
         BotaoCancelar.setText(bundle.getString("LojaConsultaProduto.BotaoCancelar.text")); // NOI18N
+        BotaoCancelar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BotaoCancelarActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout PanelBotoesLayout = new javax.swing.GroupLayout(PanelBotoes);
         PanelBotoes.setLayout(PanelBotoesLayout);
@@ -70,6 +80,11 @@ public class LojaConsultaProduto extends javax.swing.JInternalFrame {
         TXTConsulta.setText(bundle.getString("LojaConsultaProduto.TXTConsulta.text")); // NOI18N
 
         BotaoConsultar.setText(bundle.getString("LojaConsultaProduto.BotaoConsultar.text")); // NOI18N
+        BotaoConsultar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BotaoConsultarActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout PanelConsultaLayout = new javax.swing.GroupLayout(PanelConsulta);
         PanelConsulta.setLayout(PanelConsultaLayout);
@@ -164,6 +179,24 @@ public class LojaConsultaProduto extends javax.swing.JInternalFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void BotaoAlterarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BotaoAlterarActionPerformed
+        // TODO add your handling code here:
+        LojaBotoes LB = new LojaBotoes();
+        LB.Atualizar();
+    }//GEN-LAST:event_BotaoAlterarActionPerformed
+
+    private void BotaoCancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BotaoCancelarActionPerformed
+        // TODO add your handling code here:
+        LojaBotoes LB = new LojaBotoes();
+        LB.Cancelar();
+    }//GEN-LAST:event_BotaoCancelarActionPerformed
+
+    private void BotaoConsultarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BotaoConsultarActionPerformed
+        // TODO add your handling code here:
+        LojaBotoes LB = new LojaBotoes();
+        LB.Consultar();
+    }//GEN-LAST:event_BotaoConsultarActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
