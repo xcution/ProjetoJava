@@ -1,5 +1,4 @@
-/*C1*/SET SCHEMA SYSTEM_LOBS
-INSERT INTO BLOCKS VALUES(0,2147483647,0)
-COMMIT
-/*C2*/SET SCHEMA PUBLIC
-DISCONNECT
+/*C4*/SET SCHEMA PUBLIC
+CREATE TABLE produto\u000a(codigo integer primary key ,\u000anome varchar(20) not null,\u000amarca varchar(50) not null,\u000amodelo varchar(50) not null,\u000adescricao varchar(50) not null,\u000adatacompra date not null,\u000aquantidade integer not null,\u000avalorunitario decimal not null,\u000avalorcompra decimal not null\u000a)
+CREATE TABLE usuario\u000a(cpf integer primary key ,\u000arg integer not null,\u000anome varchar(20) not null,\u000asobrenome varchar(50) not null,\u000aemail varchar(50) not null,\u000auser varchar(30) not null,\u000asenha varchar(30) not null\u000a)
+CREATE TABLE cliente\u000a(cpf integer primary key not null,\u000arg integer not null,\u000anome varchar(20) not null,\u000asobrenome varchar(50) not null,\u000asexo varchar(10) not null,\u000adatanascimento date not null,\u000adatacadastro date not null,\u000aestadocivil varchar(15) not null,\u000atelefone varchar(13) not null,\u000acelular varchar(13) not null,\u000aemail varchar(50) not null,\u000aendereco varchar(50) not null,\u000alogadouro varchar(50) not null,\u000abairro varchar(50) not null,\u000anumero integer not null,\u000acep integer not null,\u000aestado varchar(2) not null,\u000acomplemento varchar(50) not null,\u000areferencia varchar(100) not null\u000a)
