@@ -21,35 +21,35 @@ public class AlteraClienteListener extends javax.swing.JFrame implements ActionL
     private AlteraCliente frame;
     private LojaUltimo LU;
     private Log LLog;
-    public AlteraClienteListener(AlteraCliente frame) throws IOException {
+    public AlteraClienteListener(AlteraCliente frame)  {
         this.frame=frame;
-        this.LU.Ultimo();
-        this.LLog.GravarLog(LU.Ultimo(), "", "Alterar Usuario", "");
+        
+        
     }
 
     @Override
     public void actionPerformed(ActionEvent e) {
         if("gravar".equals(e.getActionCommand())){
             try {
-                this.LLog.GravarLog(this.LU.Ultimo(), "", "Alterar Usuario", "Gravar Dados");
+                LLog.GravarLog(LU.Ultimo(), "", "Alterar Usuario", "Gravar Dados");
             } catch (IOException ex) {
                 Logger.getLogger(AlteraClienteListener.class.getName()).log(Level.SEVERE, null, ex);
             }
         }else if("cancelar".equals(e.getActionCommand())){
             try {
-                this.LLog.GravarLog(this.LU.Ultimo(), "", "Alterar Usuario", "Gravar Dados");
+                LLog.GravarLog(LU.Ultimo(), "", "Alterar Usuario", "Gravar Dados");
             } catch (IOException ex) {
                 Logger.getLogger(AlteraClienteListener.class.getName()).log(Level.SEVERE, null, ex);
             }
         }else if("excluir".equals(e.getActionCommand())){
             try {
-                this.LLog.GravarLog(this.LU.Ultimo(), "", "Alterar Usuario", "Gravar Dados");
+                LLog.GravarLog(LU.Ultimo(), "", "Alterar Usuario", "Gravar Dados");
             } catch (IOException ex) {
                 Logger.getLogger(AlteraClienteListener.class.getName()).log(Level.SEVERE, null, ex);
             }
         }else if("localizar".equals(e.getActionCommand())){
             try {
-                this.LLog.GravarLog(this.LU.Ultimo(), "", "Alterar Usuario", "Gravar Dados");
+                LLog.GravarLog(LU.Ultimo(), "", "Alterar Usuario", "Gravar Dados");
             } catch (IOException ex) {
                 Logger.getLogger(AlteraClienteListener.class.getName()).log(Level.SEVERE, null, ex);
             }

@@ -20,10 +20,9 @@ public class ConsultaVendasListener extends javax.swing.JFrame implements Action
     private ConsultaVendas frame;
     private LojaUltimo LU;
     private Log LLog;
-    public ConsultaVendasListener(ConsultaVendas frame) throws IOException {
+    public ConsultaVendasListener(ConsultaVendas frame)  {
         this.frame=frame;
-        this.LU.Ultimo();
-        this.LLog.GravarLog(LU.Ultimo(), "", "Consulta Vendas", "");
+        
     }
 
     @Override

@@ -16,10 +16,9 @@ public class AlteraUsuarioListener extends javax.swing.JFrame implements ActionL
     private AlteraUsuario frame;
     private LojaUltimo LU;
     private Log LLog;
-    public AlteraUsuarioListener(AlteraUsuario frame) throws IOException {
+    public AlteraUsuarioListener(AlteraUsuario frame)  {
         this.frame=frame;
-        this.LU.Ultimo();
-        this.LLog.GravarLog(LU.Ultimo(), "", "Alterar Usuario", "");
+        
     }
 
     @Override

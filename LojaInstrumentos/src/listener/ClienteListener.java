@@ -43,10 +43,9 @@ public class ClienteListener extends javax.swing.JFrame implements ActionListene
     private String Referencia ;
     private LojaUltimo LU;
     private Log LLog;
-    public ClienteListener(CadastroCliente frame) throws IOException {
+    public ClienteListener(CadastroCliente frame)  {
         this.frame = frame;
-        this.LU.Ultimo();
-        this.LLog.GravarLog(LU.Ultimo(), "", "Cadastro de Cliente", "");
+        
         
     }
 
