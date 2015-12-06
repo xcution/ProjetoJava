@@ -1,17 +1,18 @@
-package loja.telas;
+package telas;
 
 import java.io.IOException;
 import java.io.Serializable;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import loja.autentica.LojaUltimo;
-import loja.database.LojaLog;
-import loja.autentica.Acesso;
+import autentica.LojaUltimo;
+import database.Log;
+
 import javax.swing.JFrame;
 import javax.swing.JInternalFrame;
-
+import listener.FrmLoginListener;
 public class FrmLogin extends javax.swing.JFrame implements Serializable{
     private static final long serialVersionUID = 1L;
+    private FrmLoginListener listener = new FrmLoginListener(this);
     public FrmLogin() throws IOException {
         initComponents();
         txtUsuario.requestFocus();
@@ -47,19 +48,14 @@ public class FrmLogin extends javax.swing.JFrame implements Serializable{
 
         btnAcessar.setText("Acessar");
         btnAcessar.setName("btnAcessar"); // NOI18N
-        btnAcessar.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnAcessarActionPerformed(evt);
-            }
-        });
+        btnAcessar.addActionListener(listener);
+        btnAcessar.setActionCommand("acessar");
+
 
         btnCancelar.setText("Cancelar");
         btnCancelar.setName("btnCancelar"); // NOI18N
-        btnCancelar.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnCancelarActionPerformed(evt);
-            }
-        });
+        btnCancelar.addActionListener(listener);
+        btnCancelar.setActionCommand("cancelar");
 
         jLabel3.setFont(new java.awt.Font("Arial", 1, 36)); // NOI18N
         jLabel3.setText("Acesso ao sistema");
@@ -71,10 +67,11 @@ public class FrmLogin extends javax.swing.JFrame implements Serializable{
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
+                    .addComponent(jSeparator1)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
                         .addComponent(jLabel3)
-                        .addGap(0, 202, Short.MAX_VALUE))
-                    .addComponent(jSeparator1))
+                        .addGap(91, 91, 91)))
                 .addContainerGap())
             .addGroup(layout.createSequentialGroup()
                 .addGap(104, 104, 104)
@@ -85,7 +82,7 @@ public class FrmLogin extends javax.swing.JFrame implements Serializable{
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(txtSenha)
                     .addComponent(txtUsuario, javax.swing.GroupLayout.PREFERRED_SIZE, 270, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(114, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(btnAcessar, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -118,41 +115,10 @@ public class FrmLogin extends javax.swing.JFrame implements Serializable{
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void btnCancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCancelarActionPerformed
-        System.exit(0);
-    }//GEN-LAST:event_btnCancelarActionPerformed
-
-    private void btnAcessarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAcessarActionPerformed
-        
-        String usuario = txtUsuario.getText();
-        
-        String senha   = String.valueOf(txtSenha.getPassword());
-        boolean logado = false;
-        Acesso acesso = new Acesso();  
-        logado = acesso.entrar(usuario, senha); 
-        if(logado == true)
-        {
-            LojaUltimo LU = new LojaUltimo();
-            LU.GravarUltimo(usuario);
-            LojaLog LLog = new LojaLog();
-            //usuario,erro,menu de acesso, acao
-            LLog.GravarLog(usuario, "", "Logado No Sistema", "Logar");
-            FrmPrincipal principal = new FrmPrincipal();
-            //principal.show();
-            principal.setVisible(true);
-            this.dispose();
-            
-        }
-        else
-        {
-            txtUsuario.setText("");
-            txtSenha.setText("");
-            txtUsuario.requestFocus();
-        }
-        
-    }//GEN-LAST:event_btnAcessarActionPerformed
+    
 
     public static void main(String args[]) {
+        
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
         /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
@@ -199,4 +165,34 @@ public class FrmLogin extends javax.swing.JFrame implements Serializable{
     private javax.swing.JPasswordField txtSenha;
     private javax.swing.JTextField txtUsuario;
     // End of variables declaration//GEN-END:variables
+
+    /**
+     * @return the txtSenha
+     */
+    public javax.swing.JPasswordField getTxtSenha() {
+        return txtSenha;
+    }
+
+    /**
+     * @param txtSenha the txtSenha to set
+     */
+    public void setTxtSenha(javax.swing.JPasswordField txtSenha) {
+        this.txtSenha = txtSenha;
+    }
+
+    /**
+     * @return the txtUsuario
+     */
+    public javax.swing.JTextField getTxtUsuario() {
+        return txtUsuario;
+    }
+
+    /**
+     * @param txtUsuario the txtUsuario to set
+     */
+    public void setTxtUsuario(javax.swing.JTextField txtUsuario) {
+        this.txtUsuario = txtUsuario;
+    }
+
+    
 }

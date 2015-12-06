@@ -1,10 +1,11 @@
-package loja.autentica;
+package autentica;
 
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import javax.swing.JOptionPane;
+import dao.UsuarioDAO;
 public class Acesso 
 {
     private String usuario = "";
@@ -16,7 +17,7 @@ public class Acesso
         this.senha = senha;
         boolean logado = false;
         
-        //recebe uma lista com os usuarios e senhas
+        //recebe uma lista com os usuarios e senhas da funcao ListaUsuario 
         
         
         if(usuario.equals("admin") && senha.equals("admin"))

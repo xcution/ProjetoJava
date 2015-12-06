@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package loja.autentica;
+package autentica;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileInputStream;
@@ -28,21 +28,22 @@ public class LojaUltimo {
             
             bw.write(fileText);
             bw.flush();
+            JOptionPane.showMessageDialog(null, "Ultimo Usuario Logado Gravado com Sucesso!!!");
         } catch (IOException ex) {
-            JOptionPane.showMessageDialog(null, "Erro ao Gravar o arquivo" + ex.getMessage());
+            JOptionPane.showMessageDialog(null, "Erro ao Gravar o arquivo do Ultimo Usuario Logado!!!" + ex.getMessage());
         } finally {
             if (bw != null) {
                 try {
                     bw.close();
                 } catch (IOException ex) {
-                    JOptionPane.showMessageDialog(null, "Erro ao Gravar o arquivo" + ex.getMessage());
+                    JOptionPane.showMessageDialog(null, "Erro ao Gravar o arquivo do Ultimo Ususario Logado!!!" + ex.getMessage());
                 }
             }
             if (fw != null) {
                 try {
                     fw.close();
                 } catch (IOException ex) {
-                    JOptionPane.showMessageDialog(null, "Erro ao Gravar o arquivo" + ex.getMessage());
+                    JOptionPane.showMessageDialog(null, "Erro ao Gravar o arquivo do Ultimo Ususario Logado1!!" + ex.getMessage());
                 }
             }
 
@@ -54,7 +55,7 @@ public class LojaUltimo {
         InputStreamReader reader = new InputStreamReader(stream);
         BufferedReader br = new BufferedReader(reader);
         String linha = br.readLine();
-        
+        JOptionPane.showMessageDialog(null, "Ultimo Usuario lido com Sucesso!!!");
         return linha.toString();
     
 }}
